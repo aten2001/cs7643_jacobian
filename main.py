@@ -46,9 +46,10 @@ def eval(device, model, loader, criterion, lambda_JR):
 
     # for eval, let's compute the jacobian exactly
     # so n, the number of projections, is set to -1.
-    reg_full = JacobianReg(n=-1) 
+    reg_full = JacobianReg(n=-1)
     for data, targets in loader:
         data = data.to(device)
+        
         data.requires_grad = True # this is essential!
         targets = targets.to(device)
         output = model(data)
@@ -58,9 +59,10 @@ def eval(device, model, loader, criterion, lambda_JR):
         loss_super = criterion(output, targets) # supervised loss
         loss_JR = reg_full(data, output) # Jacobian regularization
         loss = loss_super + args.lambda_JR*loss_JR # full loss
-        loss_super_avg += loss_super*targets.size(0)
-        loss_JR_avg += loss_JR*targets.size(0)
-        loss_avg += loss*targets.size(0)
+        loss_super_avg += loss_super.data*targets.size(0)
+        loss_JR_avg += loss_JR.data*targets.size(0)
+        loss_avg += loss.data*targets.size(0)
+
     loss_super_avg /= total
     loss_JR_avg /= total
     loss_avg /= total
@@ -123,11 +125,16 @@ def train_model(model, device, logger):
     )
 
     # eval on testset before any training
+    print('eval on testset before any training...')
+
     correct_i, total, loss_super_i, loss_JR_i, loss_i = eval(
         device, model, testloader, criterion, args.lambda_JR
     )
 
     # train
+    
+    print('training started...')
+    
     for epoch in range(args.epochs):
         logger.info("=========================================")
         logger.info("Epoch {0}".format(epoch+1))
@@ -170,6 +177,8 @@ def train_model(model, device, logger):
                 running_loss_JR = 0.0
 
     # eval on testset after training
+    print('eval on testset after training...')
+
     correct_f, total, loss_super_f, loss_JR_f, loss_f = eval(
         device, model, testloader, criterion, args.lambda_JR
     )
@@ -218,7 +227,7 @@ def main():
     torch.manual_seed(args.seed)
     if torch.cuda.is_available():
         device = torch.device("cuda:0")
-        torch.cuda.manual_seed(seed)
+        torch.cuda.manual_seed(args.seed)
     else:
         device = torch.device("cpu")
 
@@ -231,11 +240,12 @@ def main():
     elif args.model == 'vgg11':
         model = VGG('VGG11')
     elif args.model == 'resnet18':
-        model = ResNet18()
-
-        
+        model = ResNet18()        
         
     model.to(device)
+    
+    
+    print('model loaded...')
     
     model = train_model(model, device, logger)
 
