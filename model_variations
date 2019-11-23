@@ -1,0 +1,21 @@
+MNIST: LeNet
+training settings:
+
+CIFAR-10: DDNet-VGG11?, ResNet-18
+training settings:
+
+Validate that n_proj = 1 could achieve most of the gain. Some analysis of the rate of the implementation with different n_proj.
+Reproduce Figure 2
+
+Implement White noise, PGD, CW and evaluate its impact
+Reproduce Figure 3
+
+Implement Adversarial Effects Through Randomization and evaluate its impact on CIFAR10 and MNIST
+Reproduce Figure S3 & Figure S4
+
+Effect of lambda_JR
+Reproduce Figure S6
+
+
+
+
