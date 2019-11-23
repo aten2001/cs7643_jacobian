@@ -1,4 +1,15 @@
+sudo -s
 
+# delete existing conda
+cd /usr/bin
+rm -rf ./conda
+
+# install new conda
+cd /home
+wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+bash Anaconda3-2019.07-Linux-x86_64.sh
+cd ~
+source .bashrc
 
 conda create -n cs7643_proj python=3.6
 
