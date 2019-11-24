@@ -172,9 +172,31 @@ def train_model(model, device, logger):
                             running_loss_JR / 100, 
                         )
                 )
+
+                
+
                 
                 running_loss_super = 0.0
                 running_loss_JR = 0.0
+
+
+        if args.val == 1:
+	        # evaluate test accuracy & loss
+	        correct_f, total, loss_super_f, loss_JR_f, loss_f = eval(
+		        device, model, testloader, criterion, args.lambda_JR
+		    )
+
+
+	        logger.info('test results: accuracy: %.3f, supervised loss: %.3f, Jacobian loss: %.3f, total loss: %.3f' %
+	                        (
+	                            correct_f/total, 
+	                            loss_super_f, 
+	                            loss_JR_f,  
+	                            loss_f, 
+	                        )
+	                )
+
+
 
     # eval on testset after training
     print('eval on testset after training...')
