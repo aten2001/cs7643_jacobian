@@ -24,6 +24,8 @@ class Options():
                             help='')
         parser.add_argument('--lambda_JR', default=0.1,type=float,
                             help='')
+        parser.add_argument('--val', default=1,type=int,
+                            help='')
         
         
 
