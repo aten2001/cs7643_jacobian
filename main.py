@@ -1,7 +1,6 @@
 from __future__ import division
 import time
 import sys
-import numpy as np
 
 import torch
 import torch.nn as nn
@@ -14,9 +13,13 @@ from jacobian import JacobianReg
 from models.lenet import *
 from models.resnet import *
 from models.vgg import *
+from models.mlp import *
+
+from torch.optim import lr_scheduler
 
 from logger import get_logger
 from option import Options
+import os
 
 args = Options().parse()
 
@@ -70,6 +73,7 @@ def eval(device, model, loader, criterion, lambda_JR):
     return correct, total, loss_super, loss_JR, loss
 
 
+
 def train_model(model, device, logger):
     
     if args.dataset == 'mnist':
@@ -77,7 +81,10 @@ def train_model(model, device, logger):
         mnist_mean = (0.1307,)
         mnist_std = (0.3081,)
         transform = transforms.Compose(
-            [transforms.ToTensor(), transforms.Normalize(mnist_mean, mnist_std)]
+            [
+            transforms.ToTensor(), 
+            transforms.Normalize(mnist_mean, mnist_std)
+            ]
         )
         trainset = datasets.MNIST(root='./data', train=True, 
             download=True, transform=transform
@@ -91,32 +98,12 @@ def train_model(model, device, logger):
         testloader = torch.utils.data.DataLoader(
             testset, batch_size=args.batch_size, shuffle=True
         )
-        if args.defense != None:
-            if args.defense == "rand_size":
-                new_W = np.random.randint(24, 28)
-                new_H = np.random.randint(24, 28)
-                padding_left = np.random.randint(0, 28 - new_W + 1)
-                padding_right = 28 - new_W - padding_left
-                padding_top = np.random.randint(0, 28 - new_H + 1) # left, top, right and bottom
-                padding_bottom = 28 - new_H - padding_top
-                logger.info('Width: %d, height: %d, padding_left: %d, padding_right: %d, padding_top: %d, padding_bottom: %d' %
-	                        (new_W, new_H, padding_left, padding_right, padding_top, padding_bottom)
-	                )
-                transform_defense = transforms.Compose(
-                    [transforms.Resize((new_H, new_W)), 
-                     transforms.Pad((padding_left, padding_top, padding_right, padding_bottom)), 
-                     transforms.ToTensor(), transforms.Normalize(mnist_mean, mnist_std)]
-                )
-            else:
-                print("Invalid defense name.")
-                raise
-            testset_defense = datasets.MNIST(root='./data', train=False, 
-                download=True, transform=transform_defense
-            )
-            testloader_defense = torch.utils.data.DataLoader(
-                testset_defense, batch_size=args.batch_size, shuffle=True
-            )    
+
+
+
+
     elif args.dataset == 'cifar10':
+
         transform_train = transforms.Compose([
         transforms.RandomCrop(32, padding=4),
         transforms.RandomHorizontalFlip(),
@@ -134,6 +121,9 @@ def train_model(model, device, logger):
 
         testset = datasets.CIFAR10(root='./data', train=False, download=True, transform=transform_test)
         testloader = torch.utils.data.DataLoader(testset, batch_size=args.batch_size, shuffle=False, num_workers=2)
+        
+        
+        
     
     
     
@@ -143,9 +133,13 @@ def train_model(model, device, logger):
 
     # initialize the optimizer
     # including additional regularization, L^2 weight decay
+
+
     optimizer = optim.SGD(model.parameters(), 
-        lr=0.01, momentum=0.9, weight_decay=5e-4
+        lr=args.init_lr, momentum=0.9, weight_decay=args.wd
     )
+
+    optimizer_scheduler = lr_scheduler.StepLR(optimizer, step_size=80, gamma=0.1)
 
     # eval on testset before any training
     print('eval on testset before any training...')
@@ -162,6 +156,8 @@ def train_model(model, device, logger):
         logger.info("=========================================")
         logger.info("Epoch {0}".format(epoch+1))
         logger.info("=========================================")
+
+
         running_loss_super = 0.0
         running_loss_JR = 0.0
         for idx, (data, target) in enumerate(trainloader):        
@@ -175,7 +171,11 @@ def train_model(model, device, logger):
 
             loss_super = criterion(output, target) # supervised loss
             loss_JR = reg(data, output)   # Jacobian regularization
-            loss = loss_super + args.lambda_JR*loss_JR # full loss
+
+            if args.jacobian == 1:
+                loss = loss_super + args.lambda_JR*loss_JR # full loss
+            else:
+                loss = loss_super
 
             loss.backward() # computes gradients
 
@@ -219,6 +219,9 @@ def train_model(model, device, logger):
 	                        )
 	                )
 
+        # print(epoch, optimizer_scheduler.get_lr())
+        optimizer_scheduler.step()
+
 
 
     # eval on testset after training
@@ -246,22 +249,7 @@ def train_model(model, device, logger):
     logger.info('total loss: %.3f' % loss_f)
     
     
-    # eval using defense
-    if args.defense != None:
-        print('eval on testset with defense...')
-
-        correct_d, total, loss_super_d, loss_JR_d, loss_d = eval(
-            device, model, testloader_defense, criterion, args.lambda_JR
-        )
-
-        # print results
-        logger.info("After training with defense: " + args.defense)
-        logger.info('accuracy: %d/%d=%.3f' % (correct_d, total, correct_d/total))
-        logger.info('supervised loss: %.3f' % loss_super_d)
-        logger.info('Jacobian loss: %.3f' % loss_JR_d)
-        logger.info('total loss: %.3f' % loss_d)
-        
-
+    
     return model
     
 def main():
@@ -269,7 +257,7 @@ def main():
     Train MNIST with Jacobian regularization.
     '''
     
-    logger = get_logger(name=args.name_log)
+    logger = get_logger(name=args.save_name)
     
 #     seed = 1
 #     batch_size = 64
@@ -293,7 +281,9 @@ def main():
 
 
     # initialize the model
-    if args.model == 'lenet_dropout':
+    if args.model == 'mlp':
+        model = MLP()
+    elif args.model == 'lenet_dropout':
         model = LeNet_dropout()
     elif args.model == 'lenet_standard':
         model = LeNet_standard()
@@ -310,6 +300,10 @@ def main():
     model = train_model(model, device, logger)
 
 
+    if torch.cuda.device_count() > 1:
+        torch.save(model.module.state_dict(),os.path.join('saved_models/'+str(args.save_name)+'.t7'))
+    else:
+        torch.save(model.state_dict(),os.path.join('saved_models/'+str(args.save_name)+'.t7'))
 
 if __name__ == '__main__':
     main()
