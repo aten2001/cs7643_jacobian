@@ -26,6 +26,8 @@ class Options():
                             help='')
         parser.add_argument('--val', default=1,type=int,
                             help='')
+        parser.add_argument('--defense', default=None,type=str,
+                            help='rand_size or None')
         
         
 

@@ -1,6 +1,7 @@
 from __future__ import division
 import time
 import sys
+import numpy as np
 
 import torch
 import torch.nn as nn
@@ -90,6 +91,31 @@ def train_model(model, device, logger):
         testloader = torch.utils.data.DataLoader(
             testset, batch_size=args.batch_size, shuffle=True
         )
+        if args.defense != None:
+            if args.defense == "rand_size":
+                new_W = np.random.randint(24, 28)
+                new_H = np.random.randint(24, 28)
+                padding_left = np.random.randint(0, 28 - new_W + 1)
+                padding_right = 28 - new_W - padding_left
+                padding_top = np.random.randint(0, 28 - new_H + 1) # left, top, right and bottom
+                padding_bottom = 28 - new_H - padding_top
+                logger.info('Width: %d, height: %d, padding_left: %d, padding_right: %d, padding_top: %d, padding_bottom: %d' %
+	                        (new_W, new_H, padding_left, padding_right, padding_top, padding_bottom)
+	                )
+                transform_defense = transforms.Compose(
+                    [transforms.Resize((new_H, new_W)), 
+                     transforms.Pad((padding_left, padding_top, padding_right, padding_bottom)), 
+                     transforms.ToTensor(), transforms.Normalize(mnist_mean, mnist_std)]
+                )
+            else:
+                print("Invalid defense name.")
+                raise
+            testset_defense = datasets.MNIST(root='./data', train=False, 
+                download=True, transform=transform_defense
+            )
+            testloader_defense = torch.utils.data.DataLoader(
+                testset_defense, batch_size=args.batch_size, shuffle=True
+            )    
     elif args.dataset == 'cifar10':
         transform_train = transforms.Compose([
         transforms.RandomCrop(32, padding=4),
@@ -108,9 +134,6 @@ def train_model(model, device, logger):
 
         testset = datasets.CIFAR10(root='./data', train=False, download=True, transform=transform_test)
         testloader = torch.utils.data.DataLoader(testset, batch_size=args.batch_size, shuffle=False, num_workers=2)
-        
-        
-        
     
     
     
@@ -223,7 +246,22 @@ def train_model(model, device, logger):
     logger.info('total loss: %.3f' % loss_f)
     
     
-    
+    # eval using defense
+    if args.defense != None:
+        print('eval on testset with defense...')
+
+        correct_d, total, loss_super_d, loss_JR_d, loss_d = eval(
+            device, model, testloader_defense, criterion, args.lambda_JR
+        )
+
+        # print results
+        logger.info("After training with defense: " + args.defense)
+        logger.info('accuracy: %d/%d=%.3f' % (correct_d, total, correct_d/total))
+        logger.info('supervised loss: %.3f' % loss_super_d)
+        logger.info('Jacobian loss: %.3f' % loss_JR_d)
+        logger.info('total loss: %.3f' % loss_d)
+        
+
     return model
     
 def main():
