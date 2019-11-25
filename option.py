@@ -10,14 +10,10 @@ class Options():
                             help='')
         parser.add_argument('--model', default='lenet_dropout',type=str,
                             help='')
-        parser.add_argument('--name_log', default='',type=str,
-                            help='')
-        parser.add_argument('--batch_size', default=64,type=int,
+        parser.add_argument('--batch_size', default=100,type=int,
                             help='')
         parser.add_argument('--seed', default=1,type=int,
                             help='')
-#         parser.add_argument('--epochs', default=5,type=int,
-#                             help='')
         parser.add_argument('--epochs', default=1,type=int,
                     help='')
         parser.add_argument('--n_proj', default=1,type=int,
@@ -26,8 +22,17 @@ class Options():
                             help='')
         parser.add_argument('--val', default=1,type=int,
                             help='')
+        parser.add_argument('--wd', default=5e-4,type=float,
+                            help='weight decay')
+        parser.add_argument('--jacobian', default=1,type=int,
+                            help='if jacobian regularization')
+        parser.add_argument('--save_name', default='model',type=str,
+                            help='model name & log name')
+        parser.add_argument('--init_lr', default=0.1,type=float,
+                            help='initial learning rate')
         parser.add_argument('--defense', default=None,type=str,
                             help='rand_size or None')
+
         
         
 
