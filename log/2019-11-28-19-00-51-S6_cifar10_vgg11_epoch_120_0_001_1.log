@@ -1,0 +1,974 @@
+2019-11-28 19:01:24,519 Main INFO =========================================
+2019-11-28 19:01:24,519 Main INFO Epoch 1
+2019-11-28 19:01:24,520 Main INFO =========================================
+2019-11-28 19:01:36,121 Main INFO [1,   100] supervised loss: 3.007, Jacobian loss: 1.833
+2019-11-28 19:01:47,549 Main INFO [1,   200] supervised loss: 2.277, Jacobian loss: 0.076
+2019-11-28 19:01:58,941 Main INFO [1,   300] supervised loss: 2.147, Jacobian loss: 0.149
+2019-11-28 19:02:10,283 Main INFO [1,   400] supervised loss: 1.964, Jacobian loss: 0.200
+2019-11-28 19:02:21,605 Main INFO [1,   500] supervised loss: 1.794, Jacobian loss: 0.394
+2019-11-28 19:02:21,641 Main INFO =========================================
+2019-11-28 19:02:21,641 Main INFO Epoch 2
+2019-11-28 19:02:21,641 Main INFO =========================================
+2019-11-28 19:02:33,052 Main INFO [2,   100] supervised loss: 1.667, Jacobian loss: 0.546
+2019-11-28 19:02:44,420 Main INFO [2,   200] supervised loss: 1.572, Jacobian loss: 0.785
+2019-11-28 19:02:55,790 Main INFO [2,   300] supervised loss: 1.477, Jacobian loss: 1.032
+2019-11-28 19:03:07,163 Main INFO [2,   400] supervised loss: 1.414, Jacobian loss: 1.292
+2019-11-28 19:03:18,547 Main INFO [2,   500] supervised loss: 1.352, Jacobian loss: 1.677
+2019-11-28 19:03:18,581 Main INFO =========================================
+2019-11-28 19:03:18,582 Main INFO Epoch 3
+2019-11-28 19:03:18,582 Main INFO =========================================
+2019-11-28 19:03:30,065 Main INFO [3,   100] supervised loss: 1.256, Jacobian loss: 2.027
+2019-11-28 19:03:41,444 Main INFO [3,   200] supervised loss: 1.201, Jacobian loss: 2.188
+2019-11-28 19:03:52,837 Main INFO [3,   300] supervised loss: 1.133, Jacobian loss: 2.757
+2019-11-28 19:04:04,244 Main INFO [3,   400] supervised loss: 1.093, Jacobian loss: 3.229
+2019-11-28 19:04:15,639 Main INFO [3,   500] supervised loss: 1.049, Jacobian loss: 3.143
+2019-11-28 19:04:15,676 Main INFO =========================================
+2019-11-28 19:04:15,676 Main INFO Epoch 4
+2019-11-28 19:04:15,676 Main INFO =========================================
+2019-11-28 19:04:27,145 Main INFO [4,   100] supervised loss: 1.014, Jacobian loss: 3.458
+2019-11-28 19:04:38,528 Main INFO [4,   200] supervised loss: 0.975, Jacobian loss: 3.785
+2019-11-28 19:04:49,916 Main INFO [4,   300] supervised loss: 0.939, Jacobian loss: 3.899
+2019-11-28 19:05:01,303 Main INFO [4,   400] supervised loss: 0.900, Jacobian loss: 3.977
+2019-11-28 19:05:12,677 Main INFO [4,   500] supervised loss: 0.883, Jacobian loss: 4.113
+2019-11-28 19:05:12,712 Main INFO =========================================
+2019-11-28 19:05:12,713 Main INFO Epoch 5
+2019-11-28 19:05:12,713 Main INFO =========================================
+2019-11-28 19:05:24,199 Main INFO [5,   100] supervised loss: 0.844, Jacobian loss: 4.239
+2019-11-28 19:05:35,580 Main INFO [5,   200] supervised loss: 0.828, Jacobian loss: 4.301
+2019-11-28 19:05:46,953 Main INFO [5,   300] supervised loss: 0.804, Jacobian loss: 4.696
+2019-11-28 19:05:58,332 Main INFO [5,   400] supervised loss: 0.810, Jacobian loss: 4.761
+2019-11-28 19:06:09,718 Main INFO [5,   500] supervised loss: 0.771, Jacobian loss: 4.892
+2019-11-28 19:06:09,753 Main INFO =========================================
+2019-11-28 19:06:09,753 Main INFO Epoch 6
+2019-11-28 19:06:09,754 Main INFO =========================================
+2019-11-28 19:06:21,227 Main INFO [6,   100] supervised loss: 0.753, Jacobian loss: 5.380
+2019-11-28 19:06:32,621 Main INFO [6,   200] supervised loss: 0.739, Jacobian loss: 5.221
+2019-11-28 19:06:44,018 Main INFO [6,   300] supervised loss: 0.725, Jacobian loss: 5.026
+2019-11-28 19:06:55,411 Main INFO [6,   400] supervised loss: 0.706, Jacobian loss: 5.397
+2019-11-28 19:07:06,806 Main INFO [6,   500] supervised loss: 0.689, Jacobian loss: 5.747
+2019-11-28 19:07:06,841 Main INFO =========================================
+2019-11-28 19:07:06,841 Main INFO Epoch 7
+2019-11-28 19:07:06,841 Main INFO =========================================
+2019-11-28 19:07:18,334 Main INFO [7,   100] supervised loss: 0.667, Jacobian loss: 6.061
+2019-11-28 19:07:29,720 Main INFO [7,   200] supervised loss: 0.664, Jacobian loss: 5.912
+2019-11-28 19:07:41,118 Main INFO [7,   300] supervised loss: 0.656, Jacobian loss: 6.051
+2019-11-28 19:07:52,514 Main INFO [7,   400] supervised loss: 0.649, Jacobian loss: 6.296
+2019-11-28 19:08:03,905 Main INFO [7,   500] supervised loss: 0.636, Jacobian loss: 6.319
+2019-11-28 19:08:03,940 Main INFO =========================================
+2019-11-28 19:08:03,940 Main INFO Epoch 8
+2019-11-28 19:08:03,940 Main INFO =========================================
+2019-11-28 19:08:15,398 Main INFO [8,   100] supervised loss: 0.603, Jacobian loss: 6.519
+2019-11-28 19:08:26,783 Main INFO [8,   200] supervised loss: 0.617, Jacobian loss: 6.590
+2019-11-28 19:08:38,158 Main INFO [8,   300] supervised loss: 0.610, Jacobian loss: 6.562
+2019-11-28 19:08:49,529 Main INFO [8,   400] supervised loss: 0.604, Jacobian loss: 7.040
+2019-11-28 19:09:00,890 Main INFO [8,   500] supervised loss: 0.601, Jacobian loss: 6.605
+2019-11-28 19:09:00,925 Main INFO =========================================
+2019-11-28 19:09:00,925 Main INFO Epoch 9
+2019-11-28 19:09:00,925 Main INFO =========================================
+2019-11-28 19:09:12,385 Main INFO [9,   100] supervised loss: 0.576, Jacobian loss: 7.573
+2019-11-28 19:09:23,745 Main INFO [9,   200] supervised loss: 0.566, Jacobian loss: 7.070
+2019-11-28 19:09:35,092 Main INFO [9,   300] supervised loss: 0.576, Jacobian loss: 7.226
+2019-11-28 19:09:46,467 Main INFO [9,   400] supervised loss: 0.548, Jacobian loss: 7.319
+2019-11-28 19:09:57,846 Main INFO [9,   500] supervised loss: 0.562, Jacobian loss: 7.430
+2019-11-28 19:09:57,881 Main INFO =========================================
+2019-11-28 19:09:57,881 Main INFO Epoch 10
+2019-11-28 19:09:57,881 Main INFO =========================================
+2019-11-28 19:10:09,343 Main INFO [10,   100] supervised loss: 0.517, Jacobian loss: 8.086
+2019-11-28 19:10:20,729 Main INFO [10,   200] supervised loss: 0.532, Jacobian loss: 7.608
+2019-11-28 19:10:32,126 Main INFO [10,   300] supervised loss: 0.517, Jacobian loss: 7.925
+2019-11-28 19:10:43,519 Main INFO [10,   400] supervised loss: 0.532, Jacobian loss: 7.673
+2019-11-28 19:10:54,910 Main INFO [10,   500] supervised loss: 0.524, Jacobian loss: 8.252
+2019-11-28 19:10:54,945 Main INFO =========================================
+2019-11-28 19:10:54,945 Main INFO Epoch 11
+2019-11-28 19:10:54,945 Main INFO =========================================
+2019-11-28 19:11:06,438 Main INFO [11,   100] supervised loss: 0.487, Jacobian loss: 9.073
+2019-11-28 19:11:17,819 Main INFO [11,   200] supervised loss: 0.493, Jacobian loss: 8.440
+2019-11-28 19:11:29,197 Main INFO [11,   300] supervised loss: 0.485, Jacobian loss: 8.734
+2019-11-28 19:11:40,569 Main INFO [11,   400] supervised loss: 0.506, Jacobian loss: 8.137
+2019-11-28 19:11:51,935 Main INFO [11,   500] supervised loss: 0.501, Jacobian loss: 8.490
+2019-11-28 19:11:51,970 Main INFO =========================================
+2019-11-28 19:11:51,970 Main INFO Epoch 12
+2019-11-28 19:11:51,970 Main INFO =========================================
+2019-11-28 19:12:03,416 Main INFO [12,   100] supervised loss: 0.455, Jacobian loss: 9.297
+2019-11-28 19:12:14,771 Main INFO [12,   200] supervised loss: 0.480, Jacobian loss: 8.480
+2019-11-28 19:12:26,125 Main INFO [12,   300] supervised loss: 0.487, Jacobian loss: 8.884
+2019-11-28 19:12:37,482 Main INFO [12,   400] supervised loss: 0.462, Jacobian loss: 9.306
+2019-11-28 19:12:48,841 Main INFO [12,   500] supervised loss: 0.475, Jacobian loss: 8.893
+2019-11-28 19:12:48,884 Main INFO =========================================
+2019-11-28 19:12:48,885 Main INFO Epoch 13
+2019-11-28 19:12:48,885 Main INFO =========================================
+2019-11-28 19:13:00,380 Main INFO [13,   100] supervised loss: 0.452, Jacobian loss: 9.665
+2019-11-28 19:13:11,770 Main INFO [13,   200] supervised loss: 0.461, Jacobian loss: 9.085
+2019-11-28 19:13:23,147 Main INFO [13,   300] supervised loss: 0.475, Jacobian loss: 9.171
+2019-11-28 19:13:34,536 Main INFO [13,   400] supervised loss: 0.442, Jacobian loss: 9.133
+2019-11-28 19:13:45,927 Main INFO [13,   500] supervised loss: 0.452, Jacobian loss: 9.287
+2019-11-28 19:13:45,968 Main INFO =========================================
+2019-11-28 19:13:45,968 Main INFO Epoch 14
+2019-11-28 19:13:45,968 Main INFO =========================================
+2019-11-28 19:13:57,448 Main INFO [14,   100] supervised loss: 0.430, Jacobian loss: 9.766
+2019-11-28 19:14:08,833 Main INFO [14,   200] supervised loss: 0.430, Jacobian loss: 9.921
+2019-11-28 19:14:20,228 Main INFO [14,   300] supervised loss: 0.425, Jacobian loss: 10.024
+2019-11-28 19:14:31,618 Main INFO [14,   400] supervised loss: 0.459, Jacobian loss: 9.484
+2019-11-28 19:14:43,013 Main INFO [14,   500] supervised loss: 0.451, Jacobian loss: 9.768
+2019-11-28 19:14:43,049 Main INFO =========================================
+2019-11-28 19:14:43,050 Main INFO Epoch 15
+2019-11-28 19:14:43,050 Main INFO =========================================
+2019-11-28 19:14:54,536 Main INFO [15,   100] supervised loss: 0.404, Jacobian loss: 9.878
+2019-11-28 19:15:05,920 Main INFO [15,   200] supervised loss: 0.413, Jacobian loss: 9.944
+2019-11-28 19:15:17,295 Main INFO [15,   300] supervised loss: 0.416, Jacobian loss: 10.287
+2019-11-28 19:15:28,666 Main INFO [15,   400] supervised loss: 0.428, Jacobian loss: 10.398
+2019-11-28 19:15:40,025 Main INFO [15,   500] supervised loss: 0.435, Jacobian loss: 10.670
+2019-11-28 19:15:40,060 Main INFO =========================================
+2019-11-28 19:15:40,060 Main INFO Epoch 16
+2019-11-28 19:15:40,061 Main INFO =========================================
+2019-11-28 19:15:51,522 Main INFO [16,   100] supervised loss: 0.387, Jacobian loss: 10.358
+2019-11-28 19:16:02,879 Main INFO [16,   200] supervised loss: 0.407, Jacobian loss: 10.297
+2019-11-28 19:16:14,248 Main INFO [16,   300] supervised loss: 0.412, Jacobian loss: 10.196
+2019-11-28 19:16:25,618 Main INFO [16,   400] supervised loss: 0.412, Jacobian loss: 10.495
+2019-11-28 19:16:36,976 Main INFO [16,   500] supervised loss: 0.398, Jacobian loss: 10.416
+2019-11-28 19:16:37,014 Main INFO =========================================
+2019-11-28 19:16:37,014 Main INFO Epoch 17
+2019-11-28 19:16:37,014 Main INFO =========================================
+2019-11-28 19:16:48,492 Main INFO [17,   100] supervised loss: 0.379, Jacobian loss: 11.108
+2019-11-28 19:16:59,877 Main INFO [17,   200] supervised loss: 0.383, Jacobian loss: 11.095
+2019-11-28 19:17:11,254 Main INFO [17,   300] supervised loss: 0.402, Jacobian loss: 10.721
+2019-11-28 19:17:22,653 Main INFO [17,   400] supervised loss: 0.400, Jacobian loss: 10.493
+2019-11-28 19:17:34,052 Main INFO [17,   500] supervised loss: 0.407, Jacobian loss: 10.357
+2019-11-28 19:17:34,088 Main INFO =========================================
+2019-11-28 19:17:34,088 Main INFO Epoch 18
+2019-11-28 19:17:34,089 Main INFO =========================================
+2019-11-28 19:17:45,532 Main INFO [18,   100] supervised loss: 0.356, Jacobian loss: 11.438
+2019-11-28 19:17:56,890 Main INFO [18,   200] supervised loss: 0.375, Jacobian loss: 10.643
+2019-11-28 19:18:08,254 Main INFO [18,   300] supervised loss: 0.387, Jacobian loss: 11.237
+2019-11-28 19:18:19,605 Main INFO [18,   400] supervised loss: 0.387, Jacobian loss: 10.526
+2019-11-28 19:18:30,963 Main INFO [18,   500] supervised loss: 0.391, Jacobian loss: 10.985
+2019-11-28 19:18:30,998 Main INFO =========================================
+2019-11-28 19:18:30,998 Main INFO Epoch 19
+2019-11-28 19:18:30,998 Main INFO =========================================
+2019-11-28 19:18:42,475 Main INFO [19,   100] supervised loss: 0.355, Jacobian loss: 11.684
+2019-11-28 19:18:53,866 Main INFO [19,   200] supervised loss: 0.355, Jacobian loss: 11.648
+2019-11-28 19:19:05,246 Main INFO [19,   300] supervised loss: 0.366, Jacobian loss: 11.694
+2019-11-28 19:19:16,644 Main INFO [19,   400] supervised loss: 0.363, Jacobian loss: 11.682
+2019-11-28 19:19:28,027 Main INFO [19,   500] supervised loss: 0.378, Jacobian loss: 11.559
+2019-11-28 19:19:28,062 Main INFO =========================================
+2019-11-28 19:19:28,062 Main INFO Epoch 20
+2019-11-28 19:19:28,062 Main INFO =========================================
+2019-11-28 19:19:39,522 Main INFO [20,   100] supervised loss: 0.350, Jacobian loss: 12.135
+2019-11-28 19:19:50,866 Main INFO [20,   200] supervised loss: 0.359, Jacobian loss: 12.043
+2019-11-28 19:20:02,211 Main INFO [20,   300] supervised loss: 0.357, Jacobian loss: 11.861
+2019-11-28 19:20:13,570 Main INFO [20,   400] supervised loss: 0.379, Jacobian loss: 11.193
+2019-11-28 19:20:24,934 Main INFO [20,   500] supervised loss: 0.373, Jacobian loss: 10.966
+2019-11-28 19:20:24,970 Main INFO =========================================
+2019-11-28 19:20:24,970 Main INFO Epoch 21
+2019-11-28 19:20:24,970 Main INFO =========================================
+2019-11-28 19:20:36,425 Main INFO [21,   100] supervised loss: 0.341, Jacobian loss: 11.563
+2019-11-28 19:20:47,797 Main INFO [21,   200] supervised loss: 0.335, Jacobian loss: 12.155
+2019-11-28 19:20:59,173 Main INFO [21,   300] supervised loss: 0.363, Jacobian loss: 11.610
+2019-11-28 19:21:10,548 Main INFO [21,   400] supervised loss: 0.366, Jacobian loss: 11.765
+2019-11-28 19:21:21,929 Main INFO [21,   500] supervised loss: 0.352, Jacobian loss: 11.917
+2019-11-28 19:21:21,965 Main INFO =========================================
+2019-11-28 19:21:21,965 Main INFO Epoch 22
+2019-11-28 19:21:21,965 Main INFO =========================================
+2019-11-28 19:21:33,436 Main INFO [22,   100] supervised loss: 0.313, Jacobian loss: 12.288
+2019-11-28 19:21:44,812 Main INFO [22,   200] supervised loss: 0.338, Jacobian loss: 12.350
+2019-11-28 19:21:56,198 Main INFO [22,   300] supervised loss: 0.331, Jacobian loss: 12.014
+2019-11-28 19:22:07,578 Main INFO [22,   400] supervised loss: 0.357, Jacobian loss: 12.176
+2019-11-28 19:22:18,946 Main INFO [22,   500] supervised loss: 0.365, Jacobian loss: 11.759
+2019-11-28 19:22:18,982 Main INFO =========================================
+2019-11-28 19:22:18,982 Main INFO Epoch 23
+2019-11-28 19:22:18,982 Main INFO =========================================
+2019-11-28 19:22:30,462 Main INFO [23,   100] supervised loss: 0.321, Jacobian loss: 12.224
+2019-11-28 19:22:41,850 Main INFO [23,   200] supervised loss: 0.322, Jacobian loss: 12.313
+2019-11-28 19:22:53,220 Main INFO [23,   300] supervised loss: 0.344, Jacobian loss: 12.709
+2019-11-28 19:23:04,597 Main INFO [23,   400] supervised loss: 0.350, Jacobian loss: 12.010
+2019-11-28 19:23:15,986 Main INFO [23,   500] supervised loss: 0.346, Jacobian loss: 11.633
+2019-11-28 19:23:16,022 Main INFO =========================================
+2019-11-28 19:23:16,022 Main INFO Epoch 24
+2019-11-28 19:23:16,022 Main INFO =========================================
+2019-11-28 19:23:27,478 Main INFO [24,   100] supervised loss: 0.320, Jacobian loss: 12.059
+2019-11-28 19:23:38,837 Main INFO [24,   200] supervised loss: 0.342, Jacobian loss: 12.869
+2019-11-28 19:23:50,204 Main INFO [24,   300] supervised loss: 0.319, Jacobian loss: 12.211
+2019-11-28 19:24:01,569 Main INFO [24,   400] supervised loss: 0.346, Jacobian loss: 12.246
+2019-11-28 19:24:12,923 Main INFO [24,   500] supervised loss: 0.333, Jacobian loss: 12.259
+2019-11-28 19:24:12,967 Main INFO =========================================
+2019-11-28 19:24:12,967 Main INFO Epoch 25
+2019-11-28 19:24:12,967 Main INFO =========================================
+2019-11-28 19:24:24,417 Main INFO [25,   100] supervised loss: 0.309, Jacobian loss: 12.423
+2019-11-28 19:24:35,757 Main INFO [25,   200] supervised loss: 0.321, Jacobian loss: 12.690
+2019-11-28 19:24:47,095 Main INFO [25,   300] supervised loss: 0.333, Jacobian loss: 13.091
+2019-11-28 19:24:58,473 Main INFO [25,   400] supervised loss: 0.335, Jacobian loss: 12.674
+2019-11-28 19:25:09,848 Main INFO [25,   500] supervised loss: 0.320, Jacobian loss: 13.113
+2019-11-28 19:25:09,890 Main INFO =========================================
+2019-11-28 19:25:09,890 Main INFO Epoch 26
+2019-11-28 19:25:09,890 Main INFO =========================================
+2019-11-28 19:25:21,351 Main INFO [26,   100] supervised loss: 0.309, Jacobian loss: 13.005
+2019-11-28 19:25:32,732 Main INFO [26,   200] supervised loss: 0.327, Jacobian loss: 13.029
+2019-11-28 19:25:44,134 Main INFO [26,   300] supervised loss: 0.318, Jacobian loss: 12.617
+2019-11-28 19:25:55,532 Main INFO [26,   400] supervised loss: 0.337, Jacobian loss: 12.527
+2019-11-28 19:26:06,924 Main INFO [26,   500] supervised loss: 0.324, Jacobian loss: 12.582
+2019-11-28 19:26:06,967 Main INFO =========================================
+2019-11-28 19:26:06,967 Main INFO Epoch 27
+2019-11-28 19:26:06,967 Main INFO =========================================
+2019-11-28 19:26:18,461 Main INFO [27,   100] supervised loss: 0.290, Jacobian loss: 13.730
+2019-11-28 19:26:29,852 Main INFO [27,   200] supervised loss: 0.312, Jacobian loss: 12.829
+2019-11-28 19:26:41,235 Main INFO [27,   300] supervised loss: 0.317, Jacobian loss: 12.226
+2019-11-28 19:26:52,605 Main INFO [27,   400] supervised loss: 0.317, Jacobian loss: 12.710
+2019-11-28 19:27:04,002 Main INFO [27,   500] supervised loss: 0.311, Jacobian loss: 12.405
+2019-11-28 19:27:04,039 Main INFO =========================================
+2019-11-28 19:27:04,039 Main INFO Epoch 28
+2019-11-28 19:27:04,039 Main INFO =========================================
+2019-11-28 19:27:15,516 Main INFO [28,   100] supervised loss: 0.291, Jacobian loss: 13.501
+2019-11-28 19:27:26,900 Main INFO [28,   200] supervised loss: 0.291, Jacobian loss: 13.739
+2019-11-28 19:27:38,284 Main INFO [28,   300] supervised loss: 0.323, Jacobian loss: 13.021
+2019-11-28 19:27:49,684 Main INFO [28,   400] supervised loss: 0.312, Jacobian loss: 13.029
+2019-11-28 19:28:01,068 Main INFO [28,   500] supervised loss: 0.325, Jacobian loss: 12.716
+2019-11-28 19:28:01,103 Main INFO =========================================
+2019-11-28 19:28:01,103 Main INFO Epoch 29
+2019-11-28 19:28:01,103 Main INFO =========================================
+2019-11-28 19:28:12,577 Main INFO [29,   100] supervised loss: 0.287, Jacobian loss: 13.613
+2019-11-28 19:28:23,963 Main INFO [29,   200] supervised loss: 0.300, Jacobian loss: 13.978
+2019-11-28 19:28:35,322 Main INFO [29,   300] supervised loss: 0.320, Jacobian loss: 12.628
+2019-11-28 19:28:46,681 Main INFO [29,   400] supervised loss: 0.321, Jacobian loss: 13.767
+2019-11-28 19:28:58,540 Main INFO [29,   500] supervised loss: 0.313, Jacobian loss: 12.721
+2019-11-28 19:28:58,579 Main INFO =========================================
+2019-11-28 19:28:58,580 Main INFO Epoch 30
+2019-11-28 19:28:58,580 Main INFO =========================================
+2019-11-28 19:29:20,846 Main INFO [30,   100] supervised loss: 0.275, Jacobian loss: 13.763
+2019-11-28 19:29:45,939 Main INFO [30,   200] supervised loss: 0.288, Jacobian loss: 14.030
+2019-11-28 19:30:10,789 Main INFO [30,   300] supervised loss: 0.303, Jacobian loss: 13.828
+2019-11-28 19:30:35,744 Main INFO [30,   400] supervised loss: 0.306, Jacobian loss: 14.019
+2019-11-28 19:31:00,565 Main INFO [30,   500] supervised loss: 0.329, Jacobian loss: 12.819
+2019-11-28 19:31:00,602 Main INFO =========================================
+2019-11-28 19:31:00,602 Main INFO Epoch 31
+2019-11-28 19:31:00,603 Main INFO =========================================
+2019-11-28 19:31:25,689 Main INFO [31,   100] supervised loss: 0.267, Jacobian loss: 13.866
+2019-11-28 19:31:50,653 Main INFO [31,   200] supervised loss: 0.296, Jacobian loss: 14.445
+2019-11-28 19:32:15,461 Main INFO [31,   300] supervised loss: 0.297, Jacobian loss: 13.527
+2019-11-28 19:32:40,424 Main INFO [31,   400] supervised loss: 0.305, Jacobian loss: 13.285
+2019-11-28 19:33:05,371 Main INFO [31,   500] supervised loss: 0.321, Jacobian loss: 12.947
+2019-11-28 19:33:05,407 Main INFO =========================================
+2019-11-28 19:33:05,408 Main INFO Epoch 32
+2019-11-28 19:33:05,408 Main INFO =========================================
+2019-11-28 19:33:30,320 Main INFO [32,   100] supervised loss: 0.277, Jacobian loss: 13.798
+2019-11-28 19:33:55,261 Main INFO [32,   200] supervised loss: 0.298, Jacobian loss: 13.316
+2019-11-28 19:34:20,044 Main INFO [32,   300] supervised loss: 0.300, Jacobian loss: 13.591
+2019-11-28 19:34:44,963 Main INFO [32,   400] supervised loss: 0.309, Jacobian loss: 13.239
+2019-11-28 19:35:09,879 Main INFO [32,   500] supervised loss: 0.295, Jacobian loss: 13.323
+2019-11-28 19:35:09,915 Main INFO =========================================
+2019-11-28 19:35:09,916 Main INFO Epoch 33
+2019-11-28 19:35:09,916 Main INFO =========================================
+2019-11-28 19:35:34,799 Main INFO [33,   100] supervised loss: 0.265, Jacobian loss: 13.855
+2019-11-28 19:35:59,784 Main INFO [33,   200] supervised loss: 0.284, Jacobian loss: 13.102
+2019-11-28 19:36:24,736 Main INFO [33,   300] supervised loss: 0.297, Jacobian loss: 13.935
+2019-11-28 19:36:49,582 Main INFO [33,   400] supervised loss: 0.289, Jacobian loss: 13.641
+2019-11-28 19:37:14,550 Main INFO [33,   500] supervised loss: 0.313, Jacobian loss: 12.966
+2019-11-28 19:37:14,596 Main INFO =========================================
+2019-11-28 19:37:14,596 Main INFO Epoch 34
+2019-11-28 19:37:14,596 Main INFO =========================================
+2019-11-28 19:37:39,503 Main INFO [34,   100] supervised loss: 0.285, Jacobian loss: 13.608
+2019-11-28 19:38:04,472 Main INFO [34,   200] supervised loss: 0.297, Jacobian loss: 13.891
+2019-11-28 19:38:29,407 Main INFO [34,   300] supervised loss: 0.281, Jacobian loss: 14.228
+2019-11-28 19:38:54,178 Main INFO [34,   400] supervised loss: 0.289, Jacobian loss: 13.334
+2019-11-28 19:39:19,118 Main INFO [34,   500] supervised loss: 0.305, Jacobian loss: 13.484
+2019-11-28 19:39:19,156 Main INFO =========================================
+2019-11-28 19:39:19,157 Main INFO Epoch 35
+2019-11-28 19:39:19,157 Main INFO =========================================
+2019-11-28 19:39:44,022 Main INFO [35,   100] supervised loss: 0.268, Jacobian loss: 14.250
+2019-11-28 19:40:08,948 Main INFO [35,   200] supervised loss: 0.270, Jacobian loss: 13.530
+2019-11-28 19:40:33,869 Main INFO [35,   300] supervised loss: 0.279, Jacobian loss: 14.946
+2019-11-28 19:40:58,710 Main INFO [35,   400] supervised loss: 0.282, Jacobian loss: 14.123
+2019-11-28 19:41:23,727 Main INFO [35,   500] supervised loss: 0.280, Jacobian loss: 12.816
+2019-11-28 19:41:23,764 Main INFO =========================================
+2019-11-28 19:41:23,764 Main INFO Epoch 36
+2019-11-28 19:41:23,764 Main INFO =========================================
+2019-11-28 19:41:48,855 Main INFO [36,   100] supervised loss: 0.256, Jacobian loss: 14.096
+2019-11-28 19:42:13,661 Main INFO [36,   200] supervised loss: 0.256, Jacobian loss: 14.921
+2019-11-28 19:42:38,639 Main INFO [36,   300] supervised loss: 0.290, Jacobian loss: 14.095
+2019-11-28 19:43:03,474 Main INFO [36,   400] supervised loss: 0.307, Jacobian loss: 13.891
+2019-11-28 19:43:28,446 Main INFO [36,   500] supervised loss: 0.298, Jacobian loss: 13.399
+2019-11-28 19:43:28,483 Main INFO =========================================
+2019-11-28 19:43:28,484 Main INFO Epoch 37
+2019-11-28 19:43:28,484 Main INFO =========================================
+2019-11-28 19:43:53,558 Main INFO [37,   100] supervised loss: 0.267, Jacobian loss: 14.021
+2019-11-28 19:44:18,363 Main INFO [37,   200] supervised loss: 0.277, Jacobian loss: 13.890
+2019-11-28 19:44:43,270 Main INFO [37,   300] supervised loss: 0.278, Jacobian loss: 13.814
+2019-11-28 19:45:08,036 Main INFO [37,   400] supervised loss: 0.282, Jacobian loss: 13.780
+2019-11-28 19:45:32,959 Main INFO [37,   500] supervised loss: 0.288, Jacobian loss: 13.166
+2019-11-28 19:45:33,003 Main INFO =========================================
+2019-11-28 19:45:33,003 Main INFO Epoch 38
+2019-11-28 19:45:33,003 Main INFO =========================================
+2019-11-28 19:45:58,007 Main INFO [38,   100] supervised loss: 0.252, Jacobian loss: 13.631
+2019-11-28 19:46:22,792 Main INFO [38,   200] supervised loss: 0.257, Jacobian loss: 14.811
+2019-11-28 19:46:47,745 Main INFO [38,   300] supervised loss: 0.284, Jacobian loss: 13.852
+2019-11-28 19:47:12,693 Main INFO [38,   400] supervised loss: 0.286, Jacobian loss: 14.499
+2019-11-28 19:47:37,517 Main INFO [38,   500] supervised loss: 0.307, Jacobian loss: 13.815
+2019-11-28 19:47:37,554 Main INFO =========================================
+2019-11-28 19:47:37,554 Main INFO Epoch 39
+2019-11-28 19:47:37,554 Main INFO =========================================
+2019-11-28 19:48:02,617 Main INFO [39,   100] supervised loss: 0.250, Jacobian loss: 13.874
+2019-11-28 19:48:27,445 Main INFO [39,   200] supervised loss: 0.275, Jacobian loss: 14.411
+2019-11-28 19:48:52,417 Main INFO [39,   300] supervised loss: 0.277, Jacobian loss: 14.008
+2019-11-28 19:49:17,381 Main INFO [39,   400] supervised loss: 0.287, Jacobian loss: 14.339
+2019-11-28 19:49:42,180 Main INFO [39,   500] supervised loss: 0.275, Jacobian loss: 14.549
+2019-11-28 19:49:42,226 Main INFO =========================================
+2019-11-28 19:49:42,226 Main INFO Epoch 40
+2019-11-28 19:49:42,226 Main INFO =========================================
+2019-11-28 19:50:07,240 Main INFO [40,   100] supervised loss: 0.251, Jacobian loss: 14.522
+2019-11-28 19:50:32,143 Main INFO [40,   200] supervised loss: 0.266, Jacobian loss: 14.737
+2019-11-28 19:50:56,927 Main INFO [40,   300] supervised loss: 0.275, Jacobian loss: 14.391
+2019-11-28 19:51:21,853 Main INFO [40,   400] supervised loss: 0.275, Jacobian loss: 15.364
+2019-11-28 19:51:46,617 Main INFO [40,   500] supervised loss: 0.271, Jacobian loss: 14.389
+2019-11-28 19:51:46,659 Main INFO =========================================
+2019-11-28 19:51:46,659 Main INFO Epoch 41
+2019-11-28 19:51:46,659 Main INFO =========================================
+2019-11-28 19:52:11,657 Main INFO [41,   100] supervised loss: 0.196, Jacobian loss: 13.846
+2019-11-28 19:52:36,548 Main INFO [41,   200] supervised loss: 0.155, Jacobian loss: 14.398
+2019-11-28 19:53:01,350 Main INFO [41,   300] supervised loss: 0.149, Jacobian loss: 14.601
+2019-11-28 19:53:26,321 Main INFO [41,   400] supervised loss: 0.133, Jacobian loss: 15.435
+2019-11-28 19:53:51,152 Main INFO [41,   500] supervised loss: 0.145, Jacobian loss: 15.788
+2019-11-28 19:53:51,191 Main INFO =========================================
+2019-11-28 19:53:51,191 Main INFO Epoch 42
+2019-11-28 19:53:51,191 Main INFO =========================================
+2019-11-28 19:54:16,271 Main INFO [42,   100] supervised loss: 0.124, Jacobian loss: 15.517
+2019-11-28 19:54:41,243 Main INFO [42,   200] supervised loss: 0.121, Jacobian loss: 16.011
+2019-11-28 19:55:06,075 Main INFO [42,   300] supervised loss: 0.120, Jacobian loss: 16.229
+2019-11-28 19:55:31,055 Main INFO [42,   400] supervised loss: 0.121, Jacobian loss: 16.521
+2019-11-28 19:55:56,025 Main INFO [42,   500] supervised loss: 0.103, Jacobian loss: 16.033
+2019-11-28 19:55:56,061 Main INFO =========================================
+2019-11-28 19:55:56,061 Main INFO Epoch 43
+2019-11-28 19:55:56,061 Main INFO =========================================
+2019-11-28 19:56:20,960 Main INFO [43,   100] supervised loss: 0.108, Jacobian loss: 16.499
+2019-11-28 19:56:45,894 Main INFO [43,   200] supervised loss: 0.105, Jacobian loss: 16.854
+2019-11-28 19:57:10,641 Main INFO [43,   300] supervised loss: 0.110, Jacobian loss: 17.102
+2019-11-28 19:57:35,630 Main INFO [43,   400] supervised loss: 0.099, Jacobian loss: 16.848
+2019-11-28 19:58:00,558 Main INFO [43,   500] supervised loss: 0.103, Jacobian loss: 16.845
+2019-11-28 19:58:00,595 Main INFO =========================================
+2019-11-28 19:58:00,595 Main INFO Epoch 44
+2019-11-28 19:58:00,595 Main INFO =========================================
+2019-11-28 19:58:25,482 Main INFO [44,   100] supervised loss: 0.103, Jacobian loss: 17.005
+2019-11-28 19:58:50,436 Main INFO [44,   200] supervised loss: 0.093, Jacobian loss: 17.164
+2019-11-28 19:59:15,250 Main INFO [44,   300] supervised loss: 0.095, Jacobian loss: 17.164
+2019-11-28 19:59:40,221 Main INFO [44,   400] supervised loss: 0.090, Jacobian loss: 17.157
+2019-11-28 20:00:05,164 Main INFO [44,   500] supervised loss: 0.090, Jacobian loss: 17.584
+2019-11-28 20:00:05,200 Main INFO =========================================
+2019-11-28 20:00:05,200 Main INFO Epoch 45
+2019-11-28 20:00:05,200 Main INFO =========================================
+2019-11-28 20:00:30,073 Main INFO [45,   100] supervised loss: 0.093, Jacobian loss: 17.784
+2019-11-28 20:00:55,046 Main INFO [45,   200] supervised loss: 0.085, Jacobian loss: 17.536
+2019-11-28 20:01:20,017 Main INFO [45,   300] supervised loss: 0.087, Jacobian loss: 18.148
+2019-11-28 20:01:44,835 Main INFO [45,   400] supervised loss: 0.089, Jacobian loss: 17.903
+2019-11-28 20:02:09,802 Main INFO [45,   500] supervised loss: 0.088, Jacobian loss: 17.670
+2019-11-28 20:02:09,838 Main INFO =========================================
+2019-11-28 20:02:09,838 Main INFO Epoch 46
+2019-11-28 20:02:09,838 Main INFO =========================================
+2019-11-28 20:02:34,721 Main INFO [46,   100] supervised loss: 0.091, Jacobian loss: 17.543
+2019-11-28 20:02:59,676 Main INFO [46,   200] supervised loss: 0.084, Jacobian loss: 17.935
+2019-11-28 20:03:24,620 Main INFO [46,   300] supervised loss: 0.088, Jacobian loss: 18.045
+2019-11-28 20:03:49,391 Main INFO [46,   400] supervised loss: 0.082, Jacobian loss: 18.454
+2019-11-28 20:04:14,340 Main INFO [46,   500] supervised loss: 0.081, Jacobian loss: 17.882
+2019-11-28 20:04:14,376 Main INFO =========================================
+2019-11-28 20:04:14,376 Main INFO Epoch 47
+2019-11-28 20:04:14,376 Main INFO =========================================
+2019-11-28 20:04:39,408 Main INFO [47,   100] supervised loss: 0.080, Jacobian loss: 18.616
+2019-11-28 20:05:04,184 Main INFO [47,   200] supervised loss: 0.073, Jacobian loss: 18.416
+2019-11-28 20:05:29,170 Main INFO [47,   300] supervised loss: 0.082, Jacobian loss: 18.448
+2019-11-28 20:05:53,975 Main INFO [47,   400] supervised loss: 0.074, Jacobian loss: 18.431
+2019-11-28 20:06:18,955 Main INFO [47,   500] supervised loss: 0.081, Jacobian loss: 18.045
+2019-11-28 20:06:18,991 Main INFO =========================================
+2019-11-28 20:06:18,991 Main INFO Epoch 48
+2019-11-28 20:06:18,991 Main INFO =========================================
+2019-11-28 20:06:44,057 Main INFO [48,   100] supervised loss: 0.071, Jacobian loss: 17.834
+2019-11-28 20:07:08,849 Main INFO [48,   200] supervised loss: 0.074, Jacobian loss: 18.159
+2019-11-28 20:07:33,717 Main INFO [48,   300] supervised loss: 0.072, Jacobian loss: 18.313
+2019-11-28 20:07:58,489 Main INFO [48,   400] supervised loss: 0.074, Jacobian loss: 18.542
+2019-11-28 20:08:23,465 Main INFO [48,   500] supervised loss: 0.077, Jacobian loss: 18.715
+2019-11-28 20:08:23,514 Main INFO =========================================
+2019-11-28 20:08:23,514 Main INFO Epoch 49
+2019-11-28 20:08:23,514 Main INFO =========================================
+2019-11-28 20:08:48,614 Main INFO [49,   100] supervised loss: 0.067, Jacobian loss: 18.634
+2019-11-28 20:09:13,420 Main INFO [49,   200] supervised loss: 0.069, Jacobian loss: 18.365
+2019-11-28 20:09:38,337 Main INFO [49,   300] supervised loss: 0.074, Jacobian loss: 18.792
+2019-11-28 20:10:03,222 Main INFO [49,   400] supervised loss: 0.072, Jacobian loss: 19.113
+2019-11-28 20:10:27,984 Main INFO [49,   500] supervised loss: 0.071, Jacobian loss: 18.845
+2019-11-28 20:10:28,026 Main INFO =========================================
+2019-11-28 20:10:28,026 Main INFO Epoch 50
+2019-11-28 20:10:28,026 Main INFO =========================================
+2019-11-28 20:10:53,073 Main INFO [50,   100] supervised loss: 0.066, Jacobian loss: 19.204
+2019-11-28 20:11:17,842 Main INFO [50,   200] supervised loss: 0.068, Jacobian loss: 18.926
+2019-11-28 20:11:42,719 Main INFO [50,   300] supervised loss: 0.069, Jacobian loss: 18.899
+2019-11-28 20:12:07,596 Main INFO [50,   400] supervised loss: 0.067, Jacobian loss: 18.719
+2019-11-28 20:12:32,327 Main INFO [50,   500] supervised loss: 0.072, Jacobian loss: 18.749
+2019-11-28 20:12:32,373 Main INFO =========================================
+2019-11-28 20:12:32,373 Main INFO Epoch 51
+2019-11-28 20:12:32,373 Main INFO =========================================
+2019-11-28 20:12:57,318 Main INFO [51,   100] supervised loss: 0.061, Jacobian loss: 18.398
+2019-11-28 20:13:22,127 Main INFO [51,   200] supervised loss: 0.068, Jacobian loss: 19.468
+2019-11-28 20:13:46,766 Main INFO [51,   300] supervised loss: 0.063, Jacobian loss: 19.473
+2019-11-28 20:14:11,669 Main INFO [51,   400] supervised loss: 0.067, Jacobian loss: 19.083
+2019-11-28 20:14:36,324 Main INFO [51,   500] supervised loss: 0.068, Jacobian loss: 18.984
+2019-11-28 20:14:36,364 Main INFO =========================================
+2019-11-28 20:14:36,364 Main INFO Epoch 52
+2019-11-28 20:14:36,364 Main INFO =========================================
+2019-11-28 20:15:01,335 Main INFO [52,   100] supervised loss: 0.058, Jacobian loss: 18.731
+2019-11-28 20:15:26,258 Main INFO [52,   200] supervised loss: 0.068, Jacobian loss: 18.850
+2019-11-28 20:15:51,046 Main INFO [52,   300] supervised loss: 0.058, Jacobian loss: 19.380
+2019-11-28 20:16:15,959 Main INFO [52,   400] supervised loss: 0.066, Jacobian loss: 19.704
+2019-11-28 20:16:40,742 Main INFO [52,   500] supervised loss: 0.065, Jacobian loss: 19.211
+2019-11-28 20:16:40,781 Main INFO =========================================
+2019-11-28 20:16:40,782 Main INFO Epoch 53
+2019-11-28 20:16:40,782 Main INFO =========================================
+2019-11-28 20:17:05,830 Main INFO [53,   100] supervised loss: 0.063, Jacobian loss: 19.009
+2019-11-28 20:17:30,811 Main INFO [53,   200] supervised loss: 0.059, Jacobian loss: 19.650
+2019-11-28 20:17:55,590 Main INFO [53,   300] supervised loss: 0.058, Jacobian loss: 19.445
+2019-11-28 20:18:20,543 Main INFO [53,   400] supervised loss: 0.057, Jacobian loss: 18.756
+2019-11-28 20:18:45,511 Main INFO [53,   500] supervised loss: 0.063, Jacobian loss: 19.243
+2019-11-28 20:18:45,554 Main INFO =========================================
+2019-11-28 20:18:45,554 Main INFO Epoch 54
+2019-11-28 20:18:45,554 Main INFO =========================================
+2019-11-28 20:19:10,508 Main INFO [54,   100] supervised loss: 0.055, Jacobian loss: 19.171
+2019-11-28 20:19:35,491 Main INFO [54,   200] supervised loss: 0.060, Jacobian loss: 19.119
+2019-11-28 20:20:00,276 Main INFO [54,   300] supervised loss: 0.063, Jacobian loss: 19.520
+2019-11-28 20:20:25,280 Main INFO [54,   400] supervised loss: 0.057, Jacobian loss: 19.365
+2019-11-28 20:20:50,259 Main INFO [54,   500] supervised loss: 0.060, Jacobian loss: 19.232
+2019-11-28 20:20:50,298 Main INFO =========================================
+2019-11-28 20:20:50,298 Main INFO Epoch 55
+2019-11-28 20:20:50,298 Main INFO =========================================
+2019-11-28 20:21:15,197 Main INFO [55,   100] supervised loss: 0.058, Jacobian loss: 19.396
+2019-11-28 20:21:40,190 Main INFO [55,   200] supervised loss: 0.056, Jacobian loss: 19.631
+2019-11-28 20:22:05,152 Main INFO [55,   300] supervised loss: 0.057, Jacobian loss: 19.130
+2019-11-28 20:22:29,973 Main INFO [55,   400] supervised loss: 0.051, Jacobian loss: 19.344
+2019-11-28 20:22:54,988 Main INFO [55,   500] supervised loss: 0.060, Jacobian loss: 19.436
+2019-11-28 20:22:55,034 Main INFO =========================================
+2019-11-28 20:22:55,034 Main INFO Epoch 56
+2019-11-28 20:22:55,034 Main INFO =========================================
+2019-11-28 20:23:19,902 Main INFO [56,   100] supervised loss: 0.053, Jacobian loss: 19.556
+2019-11-28 20:23:44,903 Main INFO [56,   200] supervised loss: 0.058, Jacobian loss: 19.336
+2019-11-28 20:24:09,895 Main INFO [56,   300] supervised loss: 0.054, Jacobian loss: 19.029
+2019-11-28 20:24:34,694 Main INFO [56,   400] supervised loss: 0.050, Jacobian loss: 19.343
+2019-11-28 20:24:59,644 Main INFO [56,   500] supervised loss: 0.052, Jacobian loss: 19.426
+2019-11-28 20:24:59,682 Main INFO =========================================
+2019-11-28 20:24:59,682 Main INFO Epoch 57
+2019-11-28 20:24:59,682 Main INFO =========================================
+2019-11-28 20:25:24,597 Main INFO [57,   100] supervised loss: 0.052, Jacobian loss: 19.637
+2019-11-28 20:25:49,537 Main INFO [57,   200] supervised loss: 0.051, Jacobian loss: 19.591
+2019-11-28 20:26:14,473 Main INFO [57,   300] supervised loss: 0.052, Jacobian loss: 19.728
+2019-11-28 20:26:39,214 Main INFO [57,   400] supervised loss: 0.052, Jacobian loss: 19.410
+2019-11-28 20:27:04,166 Main INFO [57,   500] supervised loss: 0.049, Jacobian loss: 19.350
+2019-11-28 20:27:04,213 Main INFO =========================================
+2019-11-28 20:27:04,213 Main INFO Epoch 58
+2019-11-28 20:27:04,213 Main INFO =========================================
+2019-11-28 20:27:29,338 Main INFO [58,   100] supervised loss: 0.047, Jacobian loss: 19.911
+2019-11-28 20:27:54,112 Main INFO [58,   200] supervised loss: 0.051, Jacobian loss: 19.394
+2019-11-28 20:28:19,028 Main INFO [58,   300] supervised loss: 0.048, Jacobian loss: 19.221
+2019-11-28 20:28:43,842 Main INFO [58,   400] supervised loss: 0.051, Jacobian loss: 19.112
+2019-11-28 20:29:08,795 Main INFO [58,   500] supervised loss: 0.048, Jacobian loss: 18.974
+2019-11-28 20:29:08,833 Main INFO =========================================
+2019-11-28 20:29:08,833 Main INFO Epoch 59
+2019-11-28 20:29:08,833 Main INFO =========================================
+2019-11-28 20:29:33,825 Main INFO [59,   100] supervised loss: 0.047, Jacobian loss: 18.555
+2019-11-28 20:29:58,643 Main INFO [59,   200] supervised loss: 0.047, Jacobian loss: 19.136
+2019-11-28 20:30:23,557 Main INFO [59,   300] supervised loss: 0.053, Jacobian loss: 19.423
+2019-11-28 20:30:48,487 Main INFO [59,   400] supervised loss: 0.053, Jacobian loss: 19.698
+2019-11-28 20:31:13,278 Main INFO [59,   500] supervised loss: 0.052, Jacobian loss: 19.649
+2019-11-28 20:31:13,316 Main INFO =========================================
+2019-11-28 20:31:13,316 Main INFO Epoch 60
+2019-11-28 20:31:13,316 Main INFO =========================================
+2019-11-28 20:31:38,340 Main INFO [60,   100] supervised loss: 0.047, Jacobian loss: 19.299
+2019-11-28 20:32:03,151 Main INFO [60,   200] supervised loss: 0.044, Jacobian loss: 19.350
+2019-11-28 20:32:28,081 Main INFO [60,   300] supervised loss: 0.050, Jacobian loss: 19.666
+2019-11-28 20:32:53,010 Main INFO [60,   400] supervised loss: 0.048, Jacobian loss: 19.845
+2019-11-28 20:33:17,792 Main INFO [60,   500] supervised loss: 0.051, Jacobian loss: 19.594
+2019-11-28 20:33:17,834 Main INFO =========================================
+2019-11-28 20:33:17,834 Main INFO Epoch 61
+2019-11-28 20:33:17,834 Main INFO =========================================
+2019-11-28 20:33:42,877 Main INFO [61,   100] supervised loss: 0.048, Jacobian loss: 19.836
+2019-11-28 20:34:07,678 Main INFO [61,   200] supervised loss: 0.047, Jacobian loss: 19.124
+2019-11-28 20:34:32,654 Main INFO [61,   300] supervised loss: 0.047, Jacobian loss: 19.752
+2019-11-28 20:34:57,652 Main INFO [61,   400] supervised loss: 0.046, Jacobian loss: 19.717
+2019-11-28 20:35:22,467 Main INFO [61,   500] supervised loss: 0.047, Jacobian loss: 19.105
+2019-11-28 20:35:22,511 Main INFO =========================================
+2019-11-28 20:35:22,512 Main INFO Epoch 62
+2019-11-28 20:35:22,512 Main INFO =========================================
+2019-11-28 20:35:47,612 Main INFO [62,   100] supervised loss: 0.043, Jacobian loss: 19.487
+2019-11-28 20:36:12,592 Main INFO [62,   200] supervised loss: 0.046, Jacobian loss: 19.524
+2019-11-28 20:36:37,418 Main INFO [62,   300] supervised loss: 0.045, Jacobian loss: 19.522
+2019-11-28 20:37:02,360 Main INFO [62,   400] supervised loss: 0.043, Jacobian loss: 18.867
+2019-11-28 20:37:27,168 Main INFO [62,   500] supervised loss: 0.046, Jacobian loss: 18.957
+2019-11-28 20:37:27,205 Main INFO =========================================
+2019-11-28 20:37:27,206 Main INFO Epoch 63
+2019-11-28 20:37:27,206 Main INFO =========================================
+2019-11-28 20:37:52,282 Main INFO [63,   100] supervised loss: 0.042, Jacobian loss: 19.154
+2019-11-28 20:38:17,282 Main INFO [63,   200] supervised loss: 0.044, Jacobian loss: 19.371
+2019-11-28 20:38:42,031 Main INFO [63,   300] supervised loss: 0.045, Jacobian loss: 19.722
+2019-11-28 20:39:07,018 Main INFO [63,   400] supervised loss: 0.045, Jacobian loss: 18.794
+2019-11-28 20:39:31,771 Main INFO [63,   500] supervised loss: 0.043, Jacobian loss: 19.020
+2019-11-28 20:39:31,818 Main INFO =========================================
+2019-11-28 20:39:31,818 Main INFO Epoch 64
+2019-11-28 20:39:31,818 Main INFO =========================================
+2019-11-28 20:39:56,824 Main INFO [64,   100] supervised loss: 0.039, Jacobian loss: 18.877
+2019-11-28 20:40:21,822 Main INFO [64,   200] supervised loss: 0.044, Jacobian loss: 19.310
+2019-11-28 20:40:46,610 Main INFO [64,   300] supervised loss: 0.041, Jacobian loss: 18.995
+2019-11-28 20:41:11,541 Main INFO [64,   400] supervised loss: 0.046, Jacobian loss: 19.008
+2019-11-28 20:41:36,462 Main INFO [64,   500] supervised loss: 0.044, Jacobian loss: 18.954
+2019-11-28 20:41:36,506 Main INFO =========================================
+2019-11-28 20:41:36,506 Main INFO Epoch 65
+2019-11-28 20:41:36,506 Main INFO =========================================
+2019-11-28 20:42:01,431 Main INFO [65,   100] supervised loss: 0.040, Jacobian loss: 18.884
+2019-11-28 20:42:26,380 Main INFO [65,   200] supervised loss: 0.039, Jacobian loss: 18.887
+2019-11-28 20:42:51,213 Main INFO [65,   300] supervised loss: 0.044, Jacobian loss: 19.558
+2019-11-28 20:43:16,173 Main INFO [65,   400] supervised loss: 0.043, Jacobian loss: 18.837
+2019-11-28 20:43:41,072 Main INFO [65,   500] supervised loss: 0.044, Jacobian loss: 19.442
+2019-11-28 20:43:41,112 Main INFO =========================================
+2019-11-28 20:43:41,112 Main INFO Epoch 66
+2019-11-28 20:43:41,113 Main INFO =========================================
+2019-11-28 20:44:05,948 Main INFO [66,   100] supervised loss: 0.037, Jacobian loss: 19.066
+2019-11-28 20:44:30,918 Main INFO [66,   200] supervised loss: 0.043, Jacobian loss: 18.938
+2019-11-28 20:44:55,922 Main INFO [66,   300] supervised loss: 0.042, Jacobian loss: 19.541
+2019-11-28 20:45:20,706 Main INFO [66,   400] supervised loss: 0.042, Jacobian loss: 19.065
+2019-11-28 20:45:45,672 Main INFO [66,   500] supervised loss: 0.042, Jacobian loss: 18.666
+2019-11-28 20:45:45,714 Main INFO =========================================
+2019-11-28 20:45:45,714 Main INFO Epoch 67
+2019-11-28 20:45:45,714 Main INFO =========================================
+2019-11-28 20:46:10,652 Main INFO [67,   100] supervised loss: 0.039, Jacobian loss: 18.667
+2019-11-28 20:46:35,657 Main INFO [67,   200] supervised loss: 0.036, Jacobian loss: 18.537
+2019-11-28 20:47:00,646 Main INFO [67,   300] supervised loss: 0.040, Jacobian loss: 18.611
+2019-11-28 20:47:25,467 Main INFO [67,   400] supervised loss: 0.041, Jacobian loss: 18.969
+2019-11-28 20:47:50,424 Main INFO [67,   500] supervised loss: 0.042, Jacobian loss: 18.804
+2019-11-28 20:47:50,462 Main INFO =========================================
+2019-11-28 20:47:50,462 Main INFO Epoch 68
+2019-11-28 20:47:50,462 Main INFO =========================================
+2019-11-28 20:48:15,358 Main INFO [68,   100] supervised loss: 0.037, Jacobian loss: 18.979
+2019-11-28 20:48:40,334 Main INFO [68,   200] supervised loss: 0.041, Jacobian loss: 18.795
+2019-11-28 20:49:05,257 Main INFO [68,   300] supervised loss: 0.040, Jacobian loss: 19.014
+2019-11-28 20:49:30,028 Main INFO [68,   400] supervised loss: 0.041, Jacobian loss: 18.883
+2019-11-28 20:49:55,032 Main INFO [68,   500] supervised loss: 0.038, Jacobian loss: 18.886
+2019-11-28 20:49:55,068 Main INFO =========================================
+2019-11-28 20:49:55,069 Main INFO Epoch 69
+2019-11-28 20:49:55,069 Main INFO =========================================
+2019-11-28 20:50:20,059 Main INFO [69,   100] supervised loss: 0.035, Jacobian loss: 18.655
+2019-11-28 20:50:44,814 Main INFO [69,   200] supervised loss: 0.038, Jacobian loss: 18.545
+2019-11-28 20:51:09,772 Main INFO [69,   300] supervised loss: 0.035, Jacobian loss: 18.138
+2019-11-28 20:51:34,557 Main INFO [69,   400] supervised loss: 0.038, Jacobian loss: 18.252
+2019-11-28 20:51:59,530 Main INFO [69,   500] supervised loss: 0.043, Jacobian loss: 18.592
+2019-11-28 20:51:59,570 Main INFO =========================================
+2019-11-28 20:51:59,571 Main INFO Epoch 70
+2019-11-28 20:51:59,571 Main INFO =========================================
+2019-11-28 20:52:24,629 Main INFO [70,   100] supervised loss: 0.036, Jacobian loss: 19.012
+2019-11-28 20:52:49,454 Main INFO [70,   200] supervised loss: 0.035, Jacobian loss: 18.964
+2019-11-28 20:53:14,484 Main INFO [70,   300] supervised loss: 0.034, Jacobian loss: 18.610
+2019-11-28 20:53:39,253 Main INFO [70,   400] supervised loss: 0.034, Jacobian loss: 18.333
+2019-11-28 20:54:04,155 Main INFO [70,   500] supervised loss: 0.041, Jacobian loss: 18.418
+2019-11-28 20:54:04,201 Main INFO =========================================
+2019-11-28 20:54:04,201 Main INFO Epoch 71
+2019-11-28 20:54:04,201 Main INFO =========================================
+2019-11-28 20:54:29,244 Main INFO [71,   100] supervised loss: 0.035, Jacobian loss: 18.560
+2019-11-28 20:54:54,002 Main INFO [71,   200] supervised loss: 0.037, Jacobian loss: 18.621
+2019-11-28 20:55:19,018 Main INFO [71,   300] supervised loss: 0.040, Jacobian loss: 19.132
+2019-11-28 20:55:43,955 Main INFO [71,   400] supervised loss: 0.040, Jacobian loss: 18.517
+2019-11-28 20:56:08,722 Main INFO [71,   500] supervised loss: 0.041, Jacobian loss: 18.438
+2019-11-28 20:56:08,761 Main INFO =========================================
+2019-11-28 20:56:08,761 Main INFO Epoch 72
+2019-11-28 20:56:08,761 Main INFO =========================================
+2019-11-28 20:56:33,819 Main INFO [72,   100] supervised loss: 0.034, Jacobian loss: 18.654
+2019-11-28 20:56:58,597 Main INFO [72,   200] supervised loss: 0.034, Jacobian loss: 17.694
+2019-11-28 20:57:23,559 Main INFO [72,   300] supervised loss: 0.038, Jacobian loss: 18.218
+2019-11-28 20:57:48,493 Main INFO [72,   400] supervised loss: 0.036, Jacobian loss: 18.716
+2019-11-28 20:58:13,266 Main INFO [72,   500] supervised loss: 0.039, Jacobian loss: 18.397
+2019-11-28 20:58:13,304 Main INFO =========================================
+2019-11-28 20:58:13,304 Main INFO Epoch 73
+2019-11-28 20:58:13,305 Main INFO =========================================
+2019-11-28 20:58:38,349 Main INFO [73,   100] supervised loss: 0.031, Jacobian loss: 17.829
+2019-11-28 20:59:03,292 Main INFO [73,   200] supervised loss: 0.034, Jacobian loss: 18.167
+2019-11-28 20:59:28,039 Main INFO [73,   300] supervised loss: 0.035, Jacobian loss: 18.454
+2019-11-28 20:59:53,040 Main INFO [73,   400] supervised loss: 0.036, Jacobian loss: 18.274
+2019-11-28 21:00:17,847 Main INFO [73,   500] supervised loss: 0.038, Jacobian loss: 17.787
+2019-11-28 21:00:17,893 Main INFO =========================================
+2019-11-28 21:00:17,893 Main INFO Epoch 74
+2019-11-28 21:00:17,893 Main INFO =========================================
+2019-11-28 21:00:42,949 Main INFO [74,   100] supervised loss: 0.034, Jacobian loss: 17.748
+2019-11-28 21:01:07,800 Main INFO [74,   200] supervised loss: 0.029, Jacobian loss: 17.837
+2019-11-28 21:01:32,544 Main INFO [74,   300] supervised loss: 0.034, Jacobian loss: 18.106
+2019-11-28 21:01:57,508 Main INFO [74,   400] supervised loss: 0.038, Jacobian loss: 18.378
+2019-11-28 21:02:22,277 Main INFO [74,   500] supervised loss: 0.036, Jacobian loss: 17.965
+2019-11-28 21:02:22,320 Main INFO =========================================
+2019-11-28 21:02:22,320 Main INFO Epoch 75
+2019-11-28 21:02:22,320 Main INFO =========================================
+2019-11-28 21:02:47,355 Main INFO [75,   100] supervised loss: 0.036, Jacobian loss: 18.210
+2019-11-28 21:03:12,168 Main INFO [75,   200] supervised loss: 0.031, Jacobian loss: 17.718
+2019-11-28 21:03:36,961 Main INFO [75,   300] supervised loss: 0.033, Jacobian loss: 18.050
+2019-11-28 21:04:01,959 Main INFO [75,   400] supervised loss: 0.032, Jacobian loss: 17.888
+2019-11-28 21:04:26,829 Main INFO [75,   500] supervised loss: 0.032, Jacobian loss: 17.893
+2019-11-28 21:04:26,875 Main INFO =========================================
+2019-11-28 21:04:26,875 Main INFO Epoch 76
+2019-11-28 21:04:26,875 Main INFO =========================================
+2019-11-28 21:04:51,769 Main INFO [76,   100] supervised loss: 0.032, Jacobian loss: 18.122
+2019-11-28 21:05:16,742 Main INFO [76,   200] supervised loss: 0.030, Jacobian loss: 17.583
+2019-11-28 21:05:41,552 Main INFO [76,   300] supervised loss: 0.034, Jacobian loss: 17.622
+2019-11-28 21:06:06,472 Main INFO [76,   400] supervised loss: 0.031, Jacobian loss: 18.044
+2019-11-28 21:06:31,404 Main INFO [76,   500] supervised loss: 0.036, Jacobian loss: 17.837
+2019-11-28 21:06:31,448 Main INFO =========================================
+2019-11-28 21:06:31,448 Main INFO Epoch 77
+2019-11-28 21:06:31,448 Main INFO =========================================
+2019-11-28 21:06:56,324 Main INFO [77,   100] supervised loss: 0.034, Jacobian loss: 17.112
+2019-11-28 21:07:21,282 Main INFO [77,   200] supervised loss: 0.032, Jacobian loss: 17.727
+2019-11-28 21:07:46,272 Main INFO [77,   300] supervised loss: 0.032, Jacobian loss: 17.480
+2019-11-28 21:08:11,109 Main INFO [77,   400] supervised loss: 0.032, Jacobian loss: 17.793
+2019-11-28 21:08:36,066 Main INFO [77,   500] supervised loss: 0.035, Jacobian loss: 17.668
+2019-11-28 21:08:36,109 Main INFO =========================================
+2019-11-28 21:08:36,109 Main INFO Epoch 78
+2019-11-28 21:08:36,110 Main INFO =========================================
+2019-11-28 21:09:00,996 Main INFO [78,   100] supervised loss: 0.032, Jacobian loss: 17.333
+2019-11-28 21:09:25,967 Main INFO [78,   200] supervised loss: 0.034, Jacobian loss: 17.747
+2019-11-28 21:09:50,922 Main INFO [78,   300] supervised loss: 0.030, Jacobian loss: 17.346
+2019-11-28 21:10:15,722 Main INFO [78,   400] supervised loss: 0.032, Jacobian loss: 17.236
+2019-11-28 21:10:40,648 Main INFO [78,   500] supervised loss: 0.035, Jacobian loss: 17.661
+2019-11-28 21:10:40,687 Main INFO =========================================
+2019-11-28 21:10:40,687 Main INFO Epoch 79
+2019-11-28 21:10:40,687 Main INFO =========================================
+2019-11-28 21:11:05,632 Main INFO [79,   100] supervised loss: 0.031, Jacobian loss: 17.142
+2019-11-28 21:11:30,612 Main INFO [79,   200] supervised loss: 0.034, Jacobian loss: 17.258
+2019-11-28 21:11:55,581 Main INFO [79,   300] supervised loss: 0.035, Jacobian loss: 17.243
+2019-11-28 21:12:20,347 Main INFO [79,   400] supervised loss: 0.030, Jacobian loss: 17.275
+2019-11-28 21:12:45,286 Main INFO [79,   500] supervised loss: 0.033, Jacobian loss: 17.289
+2019-11-28 21:12:45,323 Main INFO =========================================
+2019-11-28 21:12:45,323 Main INFO Epoch 80
+2019-11-28 21:12:45,324 Main INFO =========================================
+2019-11-28 21:13:10,378 Main INFO [80,   100] supervised loss: 0.030, Jacobian loss: 17.133
+2019-11-28 21:13:35,173 Main INFO [80,   200] supervised loss: 0.031, Jacobian loss: 17.195
+2019-11-28 21:14:00,163 Main INFO [80,   300] supervised loss: 0.032, Jacobian loss: 17.485
+2019-11-28 21:14:24,939 Main INFO [80,   400] supervised loss: 0.036, Jacobian loss: 17.150
+2019-11-28 21:14:49,917 Main INFO [80,   500] supervised loss: 0.035, Jacobian loss: 17.332
+2019-11-28 21:14:49,954 Main INFO =========================================
+2019-11-28 21:14:49,954 Main INFO Epoch 81
+2019-11-28 21:14:49,954 Main INFO =========================================
+2019-11-28 21:15:15,041 Main INFO [81,   100] supervised loss: 0.026, Jacobian loss: 17.290
+2019-11-28 21:15:39,861 Main INFO [81,   200] supervised loss: 0.024, Jacobian loss: 17.104
+2019-11-28 21:16:04,840 Main INFO [81,   300] supervised loss: 0.026, Jacobian loss: 17.115
+2019-11-28 21:16:29,639 Main INFO [81,   400] supervised loss: 0.023, Jacobian loss: 17.046
+2019-11-28 21:16:54,587 Main INFO [81,   500] supervised loss: 0.025, Jacobian loss: 16.933
+2019-11-28 21:16:54,628 Main INFO =========================================
+2019-11-28 21:16:54,629 Main INFO Epoch 82
+2019-11-28 21:16:54,629 Main INFO =========================================
+2019-11-28 21:17:19,682 Main INFO [82,   100] supervised loss: 0.023, Jacobian loss: 16.942
+2019-11-28 21:17:44,458 Main INFO [82,   200] supervised loss: 0.024, Jacobian loss: 16.925
+2019-11-28 21:18:09,431 Main INFO [82,   300] supervised loss: 0.023, Jacobian loss: 16.846
+2019-11-28 21:18:34,461 Main INFO [82,   400] supervised loss: 0.023, Jacobian loss: 16.941
+2019-11-28 21:18:59,245 Main INFO [82,   500] supervised loss: 0.024, Jacobian loss: 16.413
+2019-11-28 21:18:59,283 Main INFO =========================================
+2019-11-28 21:18:59,283 Main INFO Epoch 83
+2019-11-28 21:18:59,283 Main INFO =========================================
+2019-11-28 21:19:24,339 Main INFO [83,   100] supervised loss: 0.022, Jacobian loss: 16.484
+2019-11-28 21:19:49,168 Main INFO [83,   200] supervised loss: 0.022, Jacobian loss: 16.865
+2019-11-28 21:20:14,205 Main INFO [83,   300] supervised loss: 0.022, Jacobian loss: 16.400
+2019-11-28 21:20:39,115 Main INFO [83,   400] supervised loss: 0.021, Jacobian loss: 16.421
+2019-11-28 21:21:03,915 Main INFO [83,   500] supervised loss: 0.022, Jacobian loss: 16.668
+2019-11-28 21:21:03,954 Main INFO =========================================
+2019-11-28 21:21:03,954 Main INFO Epoch 84
+2019-11-28 21:21:03,954 Main INFO =========================================
+2019-11-28 21:21:29,055 Main INFO [84,   100] supervised loss: 0.022, Jacobian loss: 16.662
+2019-11-28 21:21:53,978 Main INFO [84,   200] supervised loss: 0.022, Jacobian loss: 16.183
+2019-11-28 21:22:18,753 Main INFO [84,   300] supervised loss: 0.021, Jacobian loss: 16.948
+2019-11-28 21:22:43,753 Main INFO [84,   400] supervised loss: 0.022, Jacobian loss: 16.576
+2019-11-28 21:23:08,551 Main INFO [84,   500] supervised loss: 0.020, Jacobian loss: 16.523
+2019-11-28 21:23:08,588 Main INFO =========================================
+2019-11-28 21:23:08,588 Main INFO Epoch 85
+2019-11-28 21:23:08,588 Main INFO =========================================
+2019-11-28 21:23:33,614 Main INFO [85,   100] supervised loss: 0.020, Jacobian loss: 16.449
+2019-11-28 21:23:58,596 Main INFO [85,   200] supervised loss: 0.021, Jacobian loss: 16.513
+2019-11-28 21:24:23,449 Main INFO [85,   300] supervised loss: 0.022, Jacobian loss: 16.702
+2019-11-28 21:24:48,460 Main INFO [85,   400] supervised loss: 0.020, Jacobian loss: 16.578
+2019-11-28 21:25:13,176 Main INFO [85,   500] supervised loss: 0.021, Jacobian loss: 16.290
+2019-11-28 21:25:13,212 Main INFO =========================================
+2019-11-28 21:25:13,213 Main INFO Epoch 86
+2019-11-28 21:25:13,213 Main INFO =========================================
+2019-11-28 21:25:38,291 Main INFO [86,   100] supervised loss: 0.022, Jacobian loss: 16.754
+2019-11-28 21:26:03,284 Main INFO [86,   200] supervised loss: 0.020, Jacobian loss: 16.705
+2019-11-28 21:26:28,090 Main INFO [86,   300] supervised loss: 0.021, Jacobian loss: 16.383
+2019-11-28 21:26:53,042 Main INFO [86,   400] supervised loss: 0.020, Jacobian loss: 16.563
+2019-11-28 21:27:18,030 Main INFO [86,   500] supervised loss: 0.019, Jacobian loss: 16.349
+2019-11-28 21:27:18,067 Main INFO =========================================
+2019-11-28 21:27:18,067 Main INFO Epoch 87
+2019-11-28 21:27:18,067 Main INFO =========================================
+2019-11-28 21:27:43,032 Main INFO [87,   100] supervised loss: 0.019, Jacobian loss: 16.239
+2019-11-28 21:28:08,077 Main INFO [87,   200] supervised loss: 0.020, Jacobian loss: 16.321
+2019-11-28 21:28:32,921 Main INFO [87,   300] supervised loss: 0.019, Jacobian loss: 16.340
+2019-11-28 21:28:57,906 Main INFO [87,   400] supervised loss: 0.020, Jacobian loss: 16.305
+2019-11-28 21:29:22,866 Main INFO [87,   500] supervised loss: 0.021, Jacobian loss: 16.301
+2019-11-28 21:29:22,908 Main INFO =========================================
+2019-11-28 21:29:22,909 Main INFO Epoch 88
+2019-11-28 21:29:22,909 Main INFO =========================================
+2019-11-28 21:29:47,791 Main INFO [88,   100] supervised loss: 0.019, Jacobian loss: 16.164
+2019-11-28 21:30:12,746 Main INFO [88,   200] supervised loss: 0.020, Jacobian loss: 16.137
+2019-11-28 21:30:37,642 Main INFO [88,   300] supervised loss: 0.020, Jacobian loss: 16.134
+2019-11-28 21:31:02,440 Main INFO [88,   400] supervised loss: 0.021, Jacobian loss: 16.037
+2019-11-28 21:31:27,369 Main INFO [88,   500] supervised loss: 0.021, Jacobian loss: 16.483
+2019-11-28 21:31:27,410 Main INFO =========================================
+2019-11-28 21:31:27,410 Main INFO Epoch 89
+2019-11-28 21:31:27,410 Main INFO =========================================
+2019-11-28 21:31:52,286 Main INFO [89,   100] supervised loss: 0.019, Jacobian loss: 16.180
+2019-11-28 21:32:17,280 Main INFO [89,   200] supervised loss: 0.019, Jacobian loss: 16.211
+2019-11-28 21:32:42,271 Main INFO [89,   300] supervised loss: 0.021, Jacobian loss: 16.110
+2019-11-28 21:33:07,092 Main INFO [89,   400] supervised loss: 0.021, Jacobian loss: 16.121
+2019-11-28 21:33:32,104 Main INFO [89,   500] supervised loss: 0.021, Jacobian loss: 16.335
+2019-11-28 21:33:32,146 Main INFO =========================================
+2019-11-28 21:33:32,147 Main INFO Epoch 90
+2019-11-28 21:33:32,147 Main INFO =========================================
+2019-11-28 21:33:57,074 Main INFO [90,   100] supervised loss: 0.020, Jacobian loss: 16.435
+2019-11-28 21:34:22,043 Main INFO [90,   200] supervised loss: 0.019, Jacobian loss: 16.095
+2019-11-28 21:34:47,003 Main INFO [90,   300] supervised loss: 0.021, Jacobian loss: 16.308
+2019-11-28 21:35:11,793 Main INFO [90,   400] supervised loss: 0.019, Jacobian loss: 16.034
+2019-11-28 21:35:36,700 Main INFO [90,   500] supervised loss: 0.020, Jacobian loss: 15.929
+2019-11-28 21:35:36,741 Main INFO =========================================
+2019-11-28 21:35:36,742 Main INFO Epoch 91
+2019-11-28 21:35:36,742 Main INFO =========================================
+2019-11-28 21:36:01,841 Main INFO [91,   100] supervised loss: 0.019, Jacobian loss: 15.896
+2019-11-28 21:36:26,698 Main INFO [91,   200] supervised loss: 0.020, Jacobian loss: 16.389
+2019-11-28 21:36:51,633 Main INFO [91,   300] supervised loss: 0.019, Jacobian loss: 16.248
+2019-11-28 21:37:16,422 Main INFO [91,   400] supervised loss: 0.020, Jacobian loss: 16.101
+2019-11-28 21:37:41,400 Main INFO [91,   500] supervised loss: 0.019, Jacobian loss: 16.398
+2019-11-28 21:37:41,440 Main INFO =========================================
+2019-11-28 21:37:41,440 Main INFO Epoch 92
+2019-11-28 21:37:41,440 Main INFO =========================================
+2019-11-28 21:38:06,540 Main INFO [92,   100] supervised loss: 0.020, Jacobian loss: 16.170
+2019-11-28 21:38:31,327 Main INFO [92,   200] supervised loss: 0.019, Jacobian loss: 16.085
+2019-11-28 21:38:56,309 Main INFO [92,   300] supervised loss: 0.020, Jacobian loss: 16.184
+2019-11-28 21:39:21,157 Main INFO [92,   400] supervised loss: 0.020, Jacobian loss: 15.951
+2019-11-28 21:39:46,115 Main INFO [92,   500] supervised loss: 0.020, Jacobian loss: 15.877
+2019-11-28 21:39:46,154 Main INFO =========================================
+2019-11-28 21:39:46,154 Main INFO Epoch 93
+2019-11-28 21:39:46,154 Main INFO =========================================
+2019-11-28 21:40:11,138 Main INFO [93,   100] supervised loss: 0.019, Jacobian loss: 15.901
+2019-11-28 21:40:36,026 Main INFO [93,   200] supervised loss: 0.018, Jacobian loss: 15.777
+2019-11-28 21:41:01,149 Main INFO [93,   300] supervised loss: 0.022, Jacobian loss: 16.443
+2019-11-28 21:41:22,435 Main INFO [93,   400] supervised loss: 0.019, Jacobian loss: 15.977
+2019-11-28 21:41:38,971 Main INFO [93,   500] supervised loss: 0.019, Jacobian loss: 15.928
+2019-11-28 21:41:39,009 Main INFO =========================================
+2019-11-28 21:41:39,009 Main INFO Epoch 94
+2019-11-28 21:41:39,010 Main INFO =========================================
+2019-11-28 21:42:04,271 Main INFO [94,   100] supervised loss: 0.018, Jacobian loss: 15.917
+2019-11-28 21:42:29,184 Main INFO [94,   200] supervised loss: 0.018, Jacobian loss: 16.134
+2019-11-28 21:42:53,697 Main INFO [94,   300] supervised loss: 0.019, Jacobian loss: 16.230
+2019-11-28 21:43:18,230 Main INFO [94,   400] supervised loss: 0.019, Jacobian loss: 15.732
+2019-11-28 21:43:42,934 Main INFO [94,   500] supervised loss: 0.018, Jacobian loss: 15.957
+2019-11-28 21:43:42,983 Main INFO =========================================
+2019-11-28 21:43:42,983 Main INFO Epoch 95
+2019-11-28 21:43:42,984 Main INFO =========================================
+2019-11-28 21:44:07,655 Main INFO [95,   100] supervised loss: 0.018, Jacobian loss: 16.064
+2019-11-28 21:44:32,078 Main INFO [95,   200] supervised loss: 0.019, Jacobian loss: 16.134
+2019-11-28 21:44:56,832 Main INFO [95,   300] supervised loss: 0.020, Jacobian loss: 16.118
+2019-11-28 21:45:21,420 Main INFO [95,   400] supervised loss: 0.019, Jacobian loss: 15.804
+2019-11-28 21:45:45,876 Main INFO [95,   500] supervised loss: 0.018, Jacobian loss: 16.156
+2019-11-28 21:45:45,913 Main INFO =========================================
+2019-11-28 21:45:45,913 Main INFO Epoch 96
+2019-11-28 21:45:45,913 Main INFO =========================================
+2019-11-28 21:46:10,486 Main INFO [96,   100] supervised loss: 0.018, Jacobian loss: 16.057
+2019-11-28 21:46:34,766 Main INFO [96,   200] supervised loss: 0.019, Jacobian loss: 16.150
+2019-11-28 21:46:59,262 Main INFO [96,   300] supervised loss: 0.018, Jacobian loss: 16.086
+2019-11-28 21:47:23,786 Main INFO [96,   400] supervised loss: 0.017, Jacobian loss: 15.968
+2019-11-28 21:47:48,283 Main INFO [96,   500] supervised loss: 0.020, Jacobian loss: 15.762
+2019-11-28 21:47:48,320 Main INFO =========================================
+2019-11-28 21:47:48,320 Main INFO Epoch 97
+2019-11-28 21:47:48,320 Main INFO =========================================
+2019-11-28 21:48:12,954 Main INFO [97,   100] supervised loss: 0.020, Jacobian loss: 16.035
+2019-11-28 21:48:37,311 Main INFO [97,   200] supervised loss: 0.020, Jacobian loss: 15.599
+2019-11-28 21:49:01,832 Main INFO [97,   300] supervised loss: 0.019, Jacobian loss: 16.066
+2019-11-28 21:49:26,382 Main INFO [97,   400] supervised loss: 0.020, Jacobian loss: 15.796
+2019-11-28 21:49:50,894 Main INFO [97,   500] supervised loss: 0.019, Jacobian loss: 15.707
+2019-11-28 21:49:50,934 Main INFO =========================================
+2019-11-28 21:49:50,934 Main INFO Epoch 98
+2019-11-28 21:49:50,934 Main INFO =========================================
+2019-11-28 21:50:15,558 Main INFO [98,   100] supervised loss: 0.019, Jacobian loss: 15.880
+2019-11-28 21:50:39,895 Main INFO [98,   200] supervised loss: 0.019, Jacobian loss: 16.090
+2019-11-28 21:51:04,425 Main INFO [98,   300] supervised loss: 0.019, Jacobian loss: 15.936
+2019-11-28 21:51:28,926 Main INFO [98,   400] supervised loss: 0.019, Jacobian loss: 15.923
+2019-11-28 21:51:53,379 Main INFO [98,   500] supervised loss: 0.018, Jacobian loss: 15.749
+2019-11-28 21:51:53,415 Main INFO =========================================
+2019-11-28 21:51:53,415 Main INFO Epoch 99
+2019-11-28 21:51:53,415 Main INFO =========================================
+2019-11-28 21:52:17,991 Main INFO [99,   100] supervised loss: 0.018, Jacobian loss: 15.778
+2019-11-28 21:52:42,371 Main INFO [99,   200] supervised loss: 0.019, Jacobian loss: 16.031
+2019-11-28 21:53:06,872 Main INFO [99,   300] supervised loss: 0.019, Jacobian loss: 15.670
+2019-11-28 21:53:31,356 Main INFO [99,   400] supervised loss: 0.019, Jacobian loss: 15.908
+2019-11-28 21:53:55,899 Main INFO [99,   500] supervised loss: 0.019, Jacobian loss: 15.769
+2019-11-28 21:53:55,935 Main INFO =========================================
+2019-11-28 21:53:55,935 Main INFO Epoch 100
+2019-11-28 21:53:55,936 Main INFO =========================================
+2019-11-28 21:54:20,815 Main INFO [100,   100] supervised loss: 0.019, Jacobian loss: 15.690
+2019-11-28 21:54:45,320 Main INFO [100,   200] supervised loss: 0.019, Jacobian loss: 15.679
+2019-11-28 21:55:09,809 Main INFO [100,   300] supervised loss: 0.019, Jacobian loss: 16.241
+2019-11-28 21:55:34,316 Main INFO [100,   400] supervised loss: 0.017, Jacobian loss: 15.513
+2019-11-28 21:55:58,806 Main INFO [100,   500] supervised loss: 0.017, Jacobian loss: 15.431
+2019-11-28 21:55:58,851 Main INFO =========================================
+2019-11-28 21:55:58,851 Main INFO Epoch 101
+2019-11-28 21:55:58,851 Main INFO =========================================
+2019-11-28 21:56:23,701 Main INFO [101,   100] supervised loss: 0.018, Jacobian loss: 15.620
+2019-11-28 21:56:48,313 Main INFO [101,   200] supervised loss: 0.018, Jacobian loss: 15.978
+2019-11-28 21:57:12,954 Main INFO [101,   300] supervised loss: 0.018, Jacobian loss: 15.828
+2019-11-28 21:57:37,398 Main INFO [101,   400] supervised loss: 0.019, Jacobian loss: 15.754
+2019-11-28 21:58:01,860 Main INFO [101,   500] supervised loss: 0.018, Jacobian loss: 15.549
+2019-11-28 21:58:01,897 Main INFO =========================================
+2019-11-28 21:58:01,897 Main INFO Epoch 102
+2019-11-28 21:58:01,897 Main INFO =========================================
+2019-11-28 21:58:26,469 Main INFO [102,   100] supervised loss: 0.018, Jacobian loss: 15.447
+2019-11-28 21:58:50,837 Main INFO [102,   200] supervised loss: 0.017, Jacobian loss: 15.835
+2019-11-28 21:59:15,371 Main INFO [102,   300] supervised loss: 0.019, Jacobian loss: 15.899
+2019-11-28 21:59:39,890 Main INFO [102,   400] supervised loss: 0.019, Jacobian loss: 15.630
+2019-11-28 22:00:04,418 Main INFO [102,   500] supervised loss: 0.019, Jacobian loss: 15.675
+2019-11-28 22:00:04,456 Main INFO =========================================
+2019-11-28 22:00:04,456 Main INFO Epoch 103
+2019-11-28 22:00:04,456 Main INFO =========================================
+2019-11-28 22:00:29,019 Main INFO [103,   100] supervised loss: 0.018, Jacobian loss: 15.884
+2019-11-28 22:00:53,398 Main INFO [103,   200] supervised loss: 0.018, Jacobian loss: 15.556
+2019-11-28 22:01:17,880 Main INFO [103,   300] supervised loss: 0.018, Jacobian loss: 15.252
+2019-11-28 22:01:42,349 Main INFO [103,   400] supervised loss: 0.017, Jacobian loss: 15.611
+2019-11-28 22:02:06,866 Main INFO [103,   500] supervised loss: 0.019, Jacobian loss: 15.577
+2019-11-28 22:02:06,910 Main INFO =========================================
+2019-11-28 22:02:06,910 Main INFO Epoch 104
+2019-11-28 22:02:06,910 Main INFO =========================================
+2019-11-28 22:02:31,485 Main INFO [104,   100] supervised loss: 0.019, Jacobian loss: 15.850
+2019-11-28 22:02:55,832 Main INFO [104,   200] supervised loss: 0.017, Jacobian loss: 15.357
+2019-11-28 22:03:20,325 Main INFO [104,   300] supervised loss: 0.018, Jacobian loss: 15.217
+2019-11-28 22:03:44,834 Main INFO [104,   400] supervised loss: 0.018, Jacobian loss: 15.872
+2019-11-28 22:04:09,358 Main INFO [104,   500] supervised loss: 0.018, Jacobian loss: 15.563
+2019-11-28 22:04:09,395 Main INFO =========================================
+2019-11-28 22:04:09,395 Main INFO Epoch 105
+2019-11-28 22:04:09,395 Main INFO =========================================
+2019-11-28 22:04:33,969 Main INFO [105,   100] supervised loss: 0.018, Jacobian loss: 15.440
+2019-11-28 22:04:58,362 Main INFO [105,   200] supervised loss: 0.018, Jacobian loss: 15.417
+2019-11-28 22:05:22,946 Main INFO [105,   300] supervised loss: 0.016, Jacobian loss: 15.491
+2019-11-28 22:05:47,460 Main INFO [105,   400] supervised loss: 0.017, Jacobian loss: 15.492
+2019-11-28 22:06:11,960 Main INFO [105,   500] supervised loss: 0.019, Jacobian loss: 15.692
+2019-11-28 22:06:12,001 Main INFO =========================================
+2019-11-28 22:06:12,001 Main INFO Epoch 106
+2019-11-28 22:06:12,001 Main INFO =========================================
+2019-11-28 22:06:36,853 Main INFO [106,   100] supervised loss: 0.017, Jacobian loss: 15.530
+2019-11-28 22:07:01,377 Main INFO [106,   200] supervised loss: 0.018, Jacobian loss: 15.763
+2019-11-28 22:07:25,847 Main INFO [106,   300] supervised loss: 0.018, Jacobian loss: 15.259
+2019-11-28 22:07:50,361 Main INFO [106,   400] supervised loss: 0.018, Jacobian loss: 15.321
+2019-11-28 22:08:14,856 Main INFO [106,   500] supervised loss: 0.018, Jacobian loss: 15.703
+2019-11-28 22:08:14,892 Main INFO =========================================
+2019-11-28 22:08:14,892 Main INFO Epoch 107
+2019-11-28 22:08:14,892 Main INFO =========================================
+2019-11-28 22:08:39,484 Main INFO [107,   100] supervised loss: 0.016, Jacobian loss: 14.959
+2019-11-28 22:09:03,808 Main INFO [107,   200] supervised loss: 0.018, Jacobian loss: 15.365
+2019-11-28 22:09:28,305 Main INFO [107,   300] supervised loss: 0.019, Jacobian loss: 15.197
+2019-11-28 22:09:52,983 Main INFO [107,   400] supervised loss: 0.018, Jacobian loss: 15.608
+2019-11-28 22:10:17,747 Main INFO [107,   500] supervised loss: 0.019, Jacobian loss: 15.779
+2019-11-28 22:10:17,784 Main INFO =========================================
+2019-11-28 22:10:17,784 Main INFO Epoch 108
+2019-11-28 22:10:17,784 Main INFO =========================================
+2019-11-28 22:10:42,376 Main INFO [108,   100] supervised loss: 0.018, Jacobian loss: 15.153
+2019-11-28 22:11:06,695 Main INFO [108,   200] supervised loss: 0.018, Jacobian loss: 15.674
+2019-11-28 22:11:31,167 Main INFO [108,   300] supervised loss: 0.017, Jacobian loss: 15.629
+2019-11-28 22:11:55,683 Main INFO [108,   400] supervised loss: 0.017, Jacobian loss: 15.285
+2019-11-28 22:12:20,168 Main INFO [108,   500] supervised loss: 0.018, Jacobian loss: 15.703
+2019-11-28 22:12:20,205 Main INFO =========================================
+2019-11-28 22:12:20,205 Main INFO Epoch 109
+2019-11-28 22:12:20,206 Main INFO =========================================
+2019-11-28 22:12:44,803 Main INFO [109,   100] supervised loss: 0.017, Jacobian loss: 15.299
+2019-11-28 22:13:09,138 Main INFO [109,   200] supervised loss: 0.018, Jacobian loss: 15.594
+2019-11-28 22:13:33,664 Main INFO [109,   300] supervised loss: 0.019, Jacobian loss: 15.378
+2019-11-28 22:13:58,138 Main INFO [109,   400] supervised loss: 0.019, Jacobian loss: 15.672
+2019-11-28 22:14:22,603 Main INFO [109,   500] supervised loss: 0.017, Jacobian loss: 15.280
+2019-11-28 22:14:22,640 Main INFO =========================================
+2019-11-28 22:14:22,641 Main INFO Epoch 110
+2019-11-28 22:14:22,641 Main INFO =========================================
+2019-11-28 22:14:47,233 Main INFO [110,   100] supervised loss: 0.016, Jacobian loss: 15.364
+2019-11-28 22:15:11,546 Main INFO [110,   200] supervised loss: 0.018, Jacobian loss: 15.148
+2019-11-28 22:15:36,038 Main INFO [110,   300] supervised loss: 0.018, Jacobian loss: 15.372
+2019-11-28 22:16:00,531 Main INFO [110,   400] supervised loss: 0.017, Jacobian loss: 15.385
+2019-11-28 22:16:25,038 Main INFO [110,   500] supervised loss: 0.019, Jacobian loss: 15.685
+2019-11-28 22:16:25,075 Main INFO =========================================
+2019-11-28 22:16:25,075 Main INFO Epoch 111
+2019-11-28 22:16:25,076 Main INFO =========================================
+2019-11-28 22:16:49,659 Main INFO [111,   100] supervised loss: 0.017, Jacobian loss: 15.553
+2019-11-28 22:17:14,015 Main INFO [111,   200] supervised loss: 0.018, Jacobian loss: 15.812
+2019-11-28 22:17:38,496 Main INFO [111,   300] supervised loss: 0.018, Jacobian loss: 15.160
+2019-11-28 22:18:03,023 Main INFO [111,   400] supervised loss: 0.017, Jacobian loss: 15.360
+2019-11-28 22:18:27,498 Main INFO [111,   500] supervised loss: 0.018, Jacobian loss: 15.578
+2019-11-28 22:18:27,535 Main INFO =========================================
+2019-11-28 22:18:27,535 Main INFO Epoch 112
+2019-11-28 22:18:27,535 Main INFO =========================================
+2019-11-28 22:18:52,106 Main INFO [112,   100] supervised loss: 0.018, Jacobian loss: 15.413
+2019-11-28 22:19:16,466 Main INFO [112,   200] supervised loss: 0.017, Jacobian loss: 15.345
+2019-11-28 22:19:40,928 Main INFO [112,   300] supervised loss: 0.018, Jacobian loss: 15.559
+2019-11-28 22:20:05,375 Main INFO [112,   400] supervised loss: 0.019, Jacobian loss: 15.284
+2019-11-28 22:20:29,867 Main INFO [112,   500] supervised loss: 0.018, Jacobian loss: 14.954
+2019-11-28 22:20:29,903 Main INFO =========================================
+2019-11-28 22:20:29,903 Main INFO Epoch 113
+2019-11-28 22:20:29,903 Main INFO =========================================
+2019-11-28 22:20:54,474 Main INFO [113,   100] supervised loss: 0.017, Jacobian loss: 15.338
+2019-11-28 22:21:18,820 Main INFO [113,   200] supervised loss: 0.017, Jacobian loss: 15.418
+2019-11-28 22:21:43,322 Main INFO [113,   300] supervised loss: 0.018, Jacobian loss: 15.462
+2019-11-28 22:22:07,811 Main INFO [113,   400] supervised loss: 0.019, Jacobian loss: 15.353
+2019-11-28 22:22:32,316 Main INFO [113,   500] supervised loss: 0.018, Jacobian loss: 15.554
+2019-11-28 22:22:32,352 Main INFO =========================================
+2019-11-28 22:22:32,352 Main INFO Epoch 114
+2019-11-28 22:22:32,353 Main INFO =========================================
+2019-11-28 22:22:56,948 Main INFO [114,   100] supervised loss: 0.019, Jacobian loss: 15.618
+2019-11-28 22:23:21,294 Main INFO [114,   200] supervised loss: 0.016, Jacobian loss: 15.263
+2019-11-28 22:23:45,825 Main INFO [114,   300] supervised loss: 0.016, Jacobian loss: 14.841
+2019-11-28 22:24:10,297 Main INFO [114,   400] supervised loss: 0.017, Jacobian loss: 15.281
+2019-11-28 22:24:34,848 Main INFO [114,   500] supervised loss: 0.017, Jacobian loss: 15.161
+2019-11-28 22:24:34,891 Main INFO =========================================
+2019-11-28 22:24:34,892 Main INFO Epoch 115
+2019-11-28 22:24:34,892 Main INFO =========================================
+2019-11-28 22:24:59,451 Main INFO [115,   100] supervised loss: 0.017, Jacobian loss: 15.351
+2019-11-28 22:25:23,773 Main INFO [115,   200] supervised loss: 0.017, Jacobian loss: 15.210
+2019-11-28 22:25:48,276 Main INFO [115,   300] supervised loss: 0.017, Jacobian loss: 15.352
+2019-11-28 22:26:12,772 Main INFO [115,   400] supervised loss: 0.016, Jacobian loss: 15.320
+2019-11-28 22:26:37,225 Main INFO [115,   500] supervised loss: 0.016, Jacobian loss: 15.287
+2019-11-28 22:26:37,263 Main INFO =========================================
+2019-11-28 22:26:37,264 Main INFO Epoch 116
+2019-11-28 22:26:37,264 Main INFO =========================================
+2019-11-28 22:27:01,829 Main INFO [116,   100] supervised loss: 0.017, Jacobian loss: 15.206
+2019-11-28 22:27:26,121 Main INFO [116,   200] supervised loss: 0.017, Jacobian loss: 15.483
+2019-11-28 22:27:50,684 Main INFO [116,   300] supervised loss: 0.017, Jacobian loss: 15.101
+2019-11-28 22:28:15,190 Main INFO [116,   400] supervised loss: 0.018, Jacobian loss: 15.055
+2019-11-28 22:28:39,718 Main INFO [116,   500] supervised loss: 0.017, Jacobian loss: 15.274
+2019-11-28 22:28:39,762 Main INFO =========================================
+2019-11-28 22:28:39,762 Main INFO Epoch 117
+2019-11-28 22:28:39,762 Main INFO =========================================
+2019-11-28 22:29:04,324 Main INFO [117,   100] supervised loss: 0.017, Jacobian loss: 15.327
+2019-11-28 22:29:28,690 Main INFO [117,   200] supervised loss: 0.018, Jacobian loss: 15.323
+2019-11-28 22:29:53,240 Main INFO [117,   300] supervised loss: 0.017, Jacobian loss: 15.088
+2019-11-28 22:30:17,766 Main INFO [117,   400] supervised loss: 0.018, Jacobian loss: 15.464
+2019-11-28 22:30:42,254 Main INFO [117,   500] supervised loss: 0.018, Jacobian loss: 15.197
+2019-11-28 22:30:42,300 Main INFO =========================================
+2019-11-28 22:30:42,300 Main INFO Epoch 118
+2019-11-28 22:30:42,300 Main INFO =========================================
+2019-11-28 22:31:06,896 Main INFO [118,   100] supervised loss: 0.017, Jacobian loss: 14.918
+2019-11-28 22:31:31,245 Main INFO [118,   200] supervised loss: 0.017, Jacobian loss: 15.032
+2019-11-28 22:31:55,715 Main INFO [118,   300] supervised loss: 0.016, Jacobian loss: 15.131
+2019-11-28 22:32:20,158 Main INFO [118,   400] supervised loss: 0.017, Jacobian loss: 14.961
+2019-11-28 22:32:44,625 Main INFO [118,   500] supervised loss: 0.017, Jacobian loss: 15.367
+2019-11-28 22:32:44,668 Main INFO =========================================
+2019-11-28 22:32:44,669 Main INFO Epoch 119
+2019-11-28 22:32:44,669 Main INFO =========================================
+2019-11-28 22:33:09,170 Main INFO [119,   100] supervised loss: 0.018, Jacobian loss: 15.198
+2019-11-28 22:33:33,501 Main INFO [119,   200] supervised loss: 0.016, Jacobian loss: 15.278
+2019-11-28 22:33:58,033 Main INFO [119,   300] supervised loss: 0.016, Jacobian loss: 15.050
+2019-11-28 22:34:22,526 Main INFO [119,   400] supervised loss: 0.017, Jacobian loss: 15.128
+2019-11-28 22:34:47,021 Main INFO [119,   500] supervised loss: 0.018, Jacobian loss: 15.136
+2019-11-28 22:34:47,058 Main INFO =========================================
+2019-11-28 22:34:47,058 Main INFO Epoch 120
+2019-11-28 22:34:47,059 Main INFO =========================================
+2019-11-28 22:35:11,656 Main INFO [120,   100] supervised loss: 0.016, Jacobian loss: 15.415
+2019-11-28 22:35:35,996 Main INFO [120,   200] supervised loss: 0.017, Jacobian loss: 15.148
+2019-11-28 22:36:00,443 Main INFO [120,   300] supervised loss: 0.018, Jacobian loss: 15.210
+2019-11-28 22:36:24,924 Main INFO [120,   400] supervised loss: 0.018, Jacobian loss: 15.220
+2019-11-28 22:36:49,403 Main INFO [120,   500] supervised loss: 0.017, Jacobian loss: 14.717
+2019-11-28 22:37:42,038 Main INFO =========================================
+2019-11-28 22:37:42,039 Main INFO Test set results
+2019-11-28 22:37:42,039 Main INFO =========================================
+2019-11-28 22:37:42,039 Main INFO Test set results on cifar10 with lambda_JR=0.001.
+2019-11-28 22:37:42,039 Main INFO Before training:
+2019-11-28 22:37:42,039 Main INFO accuracy: 1024/10000=0.102
+2019-11-28 22:37:42,040 Main INFO supervised loss: 2.458
+2019-11-28 22:37:42,040 Main INFO Jacobian loss: 8.777
+2019-11-28 22:37:42,040 Main INFO total loss: 2.467
+2019-11-28 22:37:42,040 Main INFO After 120 epochs of training:
+2019-11-28 22:37:42,040 Main INFO accuracy: 8931/10000=0.893
+2019-11-28 22:37:42,040 Main INFO supervised loss: 0.345
+2019-11-28 22:37:42,040 Main INFO Jacobian loss: 1.045
+2019-11-28 22:37:42,040 Main INFO total loss: 0.346
