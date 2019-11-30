@@ -1,11 +1,8 @@
-# This script plots energy per atom vs. timesteps for each temperature.
-
 import matplotlib
 matplotlib.use('Agg')
 import numpy as np
 import os
 import matplotlib.pyplot as plt
-# from cycler import cycler
 import math
 
 n_proj_neg_1 = ["2019-11-25-16-53-00-jr-proj-n1.log", "2019-11-25-19-33-58-jr-proj-n1.log", "2019-11-25-22-15-09-jr-proj-n1.log", 
@@ -25,7 +22,7 @@ def get_accuracy(filenames):
     for i in range(5):
         filename = filenames[i]
         if os.stat(filename).st_size==0:
-            print "Error: log.lammps is empty at " + folder_directory
+            print "Error: log is empty at " + filenames[i]
             continue
 
         file = open(filename, "r")
@@ -55,7 +52,6 @@ ave_acc_neg_1, acc_error_neg_1, ave_J_norm_neg_1, J_norm_error_neg_1 = get_accur
 
 
 # plot Figure2a in /figures
-
 plt.figure(figsize=(14,7))
 plt.xlabel("Iteration")
 plt.ylabel("Test Accuracy")
@@ -93,10 +89,4 @@ plt.fill_between(np.arange(0, 15e4, 15e4/240), ave_J_norm_neg_1 - J_norm_error_n
 
 plt.legend(loc=1)
 plt.savefig("Figure2b.png")
-
-
-
-
-
-
 
